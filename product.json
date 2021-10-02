@@ -1,0 +1,931 @@
+{
+  "clothing": [{
+      "id": 1,
+      "title": "Rib-knit Cardigan",
+      "category": "cardigans-sweaters",
+      "fashionChoice": "New Arrival",
+      "price": "29.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F14%2F50%2F14500d36a746c633573c08b04fbbed381c476394.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F4d%2Fa1%2F4da15d78961c90911125bb3ec6b553aee7300303.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F64%2F1a%2F641a3673a4a803893d912b606e78ac4b5309e10d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fec%2Ff6%2Fecf6729f0b2f73e90cf68610a4d1c215daef6837.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#f7f6f3",
+          "colorName": "Cream"
+        },
+        {
+          "colorCode": "#d8ceac",
+          "colorName": "Light Yellow"
+        },
+        {
+          "colorCode": "#97a1b0",
+          "colorName": "Light Blue"
+        }
+      ],
+      "productDescription": "Boxy, rib-knit cardigan in a soft cotton blend. V-neck and buttons at front. Dropped shoulders with back-facing seams and long, wide sleeves with close-fitting cuffs."
+    },
+    {
+      "id": 2,
+      "title": "Sweatshirt Dress",
+      "category": "dresses",
+      "fashionChoice": "New Arrival",
+      "price": "34.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F92%2F53%2F9253f417f9ec84d552f43492e97b3495afe9c23c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F18%2Fdd%2F18ddfc8d3614af9278fc8605a8867255349b9897.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fef%2F90%2Fef90d94dbd26a530e47eb82b291d70cea4748ec9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F63%2Fbe%2F63be17217897565c70301829d6b718bf18ff5351.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#f7f6f3",
+          "colorName": "Cream"
+        },
+        {
+          "colorCode": "#b89f90",
+          "colorName": "Dusty Rose"
+        }
+      ],
+      "productDescription": "Calf-length sweatshirt dress in cotton-blend fabric. Round neckline, dropped shoulders, and long sleeves. Ribbing at neckline, cuffs, and hem. Slits at sides. Soft, brushed inside."
+    },
+    {
+      "id": 3,
+      "title": "Crop T-shirt",
+      "category": "tops",
+      "fashionChoice": "New Arrival",
+      "price": "6.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F2d%2Fe0%2F2de01c2c3f93d1319d3ec260beabdf7197cabe9a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe0%2F0d%2Fe00dd9983f3bffb35fac8c7821b44d816383c99b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F0e%2F29%2F0e292959f9c761557188d98a00c1d1dea44df3d0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc2%2Fb5%2Fc2b56164b99bb1c5a84cb90e5d387f371d9c5468.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#b9b1aa",
+          "colorName": "Light Beige"
+        },
+        {
+          "colorCode": "#272628",
+          "colorName": "Black"
+        },
+        {
+          "colorCode": "#ecedec",
+          "colorName": "White"
+        }
+      ],
+      "productDescription": "Short, loose-fit T-shirt in cotton jersey. Low-cut V-neck and dropped shoulders."
+    },
+    {
+      "id": 4,
+      "title": "Knit Wool Cape",
+      "category": "accessories",
+      "fashionChoice": "New Arrival",
+      "price": "79.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fea%2F5c%2Fea5c93bf49fb8f2ff495c4478d4d2a1b3067af6d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F23%2Faa%2F23aab3dfe0fd5bb83e0e303b4b513f6f59a032fe.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fba%2F48%2Fba4883fa69f98c030205cb113950f11d1e434cd4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F28%2Ff9%2F28f95b109b232f182f43e8548b6b5a145fec66d1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#97897c",
+          "colorName": "Beige Melange"
+        },
+        {
+          "colorCode": "#272628",
+          "colorName": "Black"
+        }
+      ],
+      "productDescription": "Fine-knit cape in a soft wool and cashmere blend with open sides. Ribbed trim at short sides."
+    },
+    {
+      "id": 5,
+      "title": "Varsity Jacket",
+      "category": "jackets-coats",
+      "fashionChoice": "New Arrival",
+      "price": "59.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc3%2F32%2Fc3327a363c1d86338cf01277d01f12cf0a4fb1f2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe1%2F71%2Fe171f209c28fb7e2e4e5b3c6a51f6a9a25bfec6c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F87%2F5b%2F875ba202c363b240ee92aab439b4d889aa1fc858.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F9d%2F49%2F9d4912b4203d05aa34d963b11f90cf540ada2991.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#582b34",
+          "colorName": "Dark Red"
+        }
+      ],
+      "productDescription": "Varsity jacket in felted fabric with embroidered terry appliqué on chest. Low, ribbed stand-up collar, snap fasteners at front, and diagonal welt front pockets. Striped ribbing at cuffs and hem. Lined."
+    },
+    {
+      "id": 6,
+      "title": "Collared Jersey Dress",
+      "category": "dresses",
+      "fashionChoice": "New Arrival",
+      "price": "19.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7f%2F30%2F7f3094defb5241b85437eec496389adc72bdf939.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F2a%2F94%2F2a94a6a0a187d15fcb14ccc7f51e36d8cb4e56c8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F05%2Fd0%2F05d0b4c9ef22ee1d2c2c19d8c42e8c6ec963cd20.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F85%2F56%2F85565f9a9ef998cbfb8c852ab2d354a9c5a0caf6.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#272628",
+          "colorName": "Black"
+        },
+        {
+          "colorCode": "#97a1b0",
+          "colorName": "Light Blue"
+        }
+      ],
+      "productDescription": "Short, fitted dress in soft jersey. Collar, V-neck, and short sleeves."
+    },
+    {
+      "id": 7,
+      "title": "2-pack Soft-cup Lace Bras",
+      "category": "lingerie",
+      "fashionChoice": "New Arrival",
+      "price": "29.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F43%2F6b%2F436bcf44f9021657bbf6a5887e2644fb1ce9cdc2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7c%2Fe0%2F7ce0ece9506e2017b7394e2eb02b231947be15e9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_lingerie_bras_multipack%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd6%2F1e%2Fd61ed65f08b7eb1421a33a64a410755ae26d40a2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb1%2Fc2%2Fb1c2cb50fef7239a2ab50042d84a434df325f1ec.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#e4ded8",
+          "colorName": "Powder Beige"
+        },
+        {
+          "colorCode": "#272628",
+          "colorName": "Black"
+        }
+      ],
+      "productDescription": "Soft-cup bras in lace. Adjustable shoulder straps, mesh-lined cups for natural shape and light support, and hook-and-eye fasteners at back."
+    },
+    {
+      "id": 8,
+      "title": "Pleated Maxi Dress",
+      "category": "dresses",
+      "fashionChoice": "New Arrival",
+      "price": "69.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F64%2F25%2F64254144f67c0f587d5d5a6b1298772d7ba0f7ff.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F58%2F8a%2F588a02ca81f6d320d4cbaea0cf61d32cb358fb37.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F24%2F06%2F240638dd27a47b2f557bfa21417cc29ce5461bdf.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F9c%2F46%2F9c46cfc2832e7088071a83ce613edbe854c7e9d6.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#adada3",
+          "colorName": "Light Sage Green"
+        }
+      ],
+      "productDescription": "Pleated, ankle-length, A-line dress in woven fabric. Low stand-up collar and a V-neck opening at front with ties. Long, wide raglan sleeves and narrow cuffs with covered button. Lined."
+    },
+    {
+      "id": 9,
+      "title": "Crop T-shirt",
+      "category": "tops",
+      "fashionChoice": "New Arrival",
+      "price": "6.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ffc%2F71%2Ffc7194dfa7a68a72caeccc1db7d1853d22880d40.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fec%2F38%2Fec382adfe537b8c45018a3f89b8c32e5168c3302.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd8%2Fd4%2Fd8d4dfe3ddac551f6eea794ae60a8c1981d10c39.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F62%2Fdc%2F62dc4ca2eb921ffa97129a9e2a0acb785a8a3516.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#b9b1aa",
+          "colorName": "Light Beige"
+        },
+        {
+          "colorCode": "#272628",
+          "colorName": "Black"
+        },
+        {
+          "colorCode": "#ecedec",
+          "colorName": "White"
+        }
+      ],
+      "productDescription": "Short, loose-fit T-shirt in cotton jersey. Low-cut V-neck and dropped shoulders."
+    },
+    {
+      "id": 10,
+      "title": "Smock-detail Satin Dress",
+      "category": "dresses",
+      "fashionChoice": "New Arrival",
+      "price": "49.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F92%2F43%2F9243d6261843cb3bb3ad140c2ad10bcc524980e4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa2%2F41%2Fa241ae44bd5ec3ac070f275ef437cec6dd1cc80a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F15%2F1c%2F151c2ae70c55e1491dbe29f12c19eeb5b7b2c8fa.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F75%2F03%2F750309c0a8002f293dc303b543c09a87c80c423e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#b9b1aa",
+          "colorName": "lightBeige"
+        }
+      ],
+      "productDescription": "Calf-length satin dress with a straight cut upper section. Narrow, adjustable shoulder straps, smocked sections at top and at waist for a draped effect over bust, and a concealed zipper at back. Lined."
+    },
+    {
+      "id": 11,
+      "title": "Rib-knit Top",
+      "category": "tops",
+      "fashionChoice": "New Arrival",
+      "price": "14.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa0%2Fc5%2Fa0c5a4db47c500442b5fc0cc72a4e042b2ff52bb.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc4%2F42%2Fc442bff72f984e701fbe25fe6eb918a672eb3e7a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F37%2F2f%2F372f88da5c404651f1fd8bdad09ca721a448adb1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F40%2Fad%2F40ad2b441c74aa850cfe8494492c194f3970c29a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#ffffff",
+          "colorName": "White"
+        },
+        {
+          "colorCode": "#e3c59d",
+          "colorName": "Light yellow"
+        },
+        {
+          "colorCode": "#c3e9b1",
+          "colorName": "Light green"
+        },
+        {
+          "colorCode": "#ebe0bf",
+          "colorName": "Beige"
+        },
+        {
+          "colorCode": "#272628",
+          "colorName": "Black"
+        }
+      ],
+      "productDescription": "Fitted top in a soft, rib-knit viscose blend. Wide shoulder straps and a sweetheart neckline."
+    },
+    {
+      "id": 12,
+      "title": "Open-shoulder Dress",
+      "category": "dresses",
+      "fashionChoice": "New Arrival",
+      "price": "39.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1f%2F29%2F1f29bd38c2b2c2834553afd0a544bea9b733b7f5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F85%2F68%2F85686be31d2215c545e31b4ab60c11661a31a326.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7c%2F52%2F7c52fd4b843502ae62fd56af612016b97cae4b9a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7a%2Fda%2F7ada951c7ac5055427182777e6eaa3fb301da977.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#cad6d8",
+          "colorName": "Light blue/floral"
+        }
+      ],
+      "productDescription": "Short, open-shoulder dress in woven fabric. Adjustable, extra-narrow shoulder straps, covered elastic and decorative ties at top, and shaped cups. Long sleeves with narrow elastic at upper arms and at cuffs. Concealed zipper at one side. Lined."
+    },
+    {
+      "id": 13,
+      "title": "Shirt Dress",
+      "category": "dresses",
+      "fashionChoice": "New Arrival",
+      "price": "39.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb1%2Fed%2Fb1ed735a56b9d9951f21ed2670dc7d2e4d825468.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F35%2F77%2F35777d152f87ee6f0465371e2957989f19069fe9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F82%2Fed%2F82ed83e63c41032b0f6933a4a0861cca3e87ee5e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb5%2Ff8%2Fb5f8c851d7524b3d8559edb8d35ddca3feed792c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#272628",
+          "colorName": "Black/gray plaid"
+        }
+      ],
+      "productDescription": "Short, oversized shirt dress in woven cotton denim. Collar, buttons at front, dropped shoulders, and long sleeves with button at cuffs. Gently rounded hem."
+    },
+    {
+      "id": 14,
+      "title": "Denim Carpenter Overalls",
+      "category": "jumpsuits-rompers",
+      "fashionChoice": "New Arrival",
+      "price": "59.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F83%2Fde%2F83de6736496b8913c7f6a668ed4f5e6d8e2665c5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F71%2F14%2F7114b6da45a4366eec4e49361a80586190968d0d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe5%2Fc4%2Fe5c41aa911567122b6bcf9b7f9ac7f2207d29d4d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fbf%2Fe4%2Fbfe4054590f18d25b18a3db508dde0551a3541f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#8898ac",
+          "colorName": "Light denim blue"
+        }
+      ],
+      "productDescription": "Carpenter overalls in cotton denim. Adjustable suspenders with metal fasteners, buttons at sides, and straight, wide legs. Partitioned bib pocket, side and back pockets, a hammer loop, and leg pockets."
+    },
+    {
+      "id": 15,
+      "title": "Regular Fit Flannel Shirt",
+      "category": "shirts",
+      "fashionChoice": "male",
+      "price": "29.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F70%2Fce%2F70ced6a4b7a40f22894084b3b30bcbae09303e11.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F62%2Fc6%2F62c6a85dbba3821c2ec130a47053c8174df86ffb.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fcd%2F45%2Fcd45f9ccbb1ede1e89909a18b843e86cb571e4a2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F51%2Fd5%2F51d5a76f88b6c1e1589709e548bc07a477b9c3f9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#e3e4df",
+          "colorName": "White/black"
+        },
+        {
+          "colorCode": "#7c7d81",
+          "colorName": "Dark gray/black"
+        },
+        {
+          "colorCode": "#6b797b",
+          "colorName": "Turquoise/black"
+        },
+        {
+          "colorCode": "#a9a398",
+          "colorName": "Light taupe/black"
+        },
+        {
+          "colorCode": "#d9c6ce",
+          "colorName": "Pink/black"
+        }
+      ],
+      "productDescription": "Plaid shirt in soft cotton flannel. Turn-down collar, classic button placket, yoke at back, and open chest pockets. Long sleeves with button at cuffs and sleeve placket with link button. Rounded hem. Regular Fit – classic fit with good room for movement and gently tapered waist for a comfortable, tailored silhouette."
+    },
+    {
+      "id": 16,
+      "title": "Regular Fit Hooded Jacket",
+      "category": "hoodies-sweatshirts",
+      "fashionChoice": "male",
+      "price": "29.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1b%2F03%2F1b03f61a83081f9b0a91595940e3972e1338fafc.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F2f%2Fdb%2F2fdb4d442d011d7b3daa4a949cee7b9927ad0d9c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F3c%2F87%2F3c87332ef1117114a9250fc976e9e69463948f9e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F9c%2F46%2F9c461971c93ec0ae35fe5de2857218b2be88fc2f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#272628",
+          "colorName": "Black"
+        }
+      ],
+      "productDescription": "Sweatshirt jacket with a jersey-lined drawstring hood. Zipper at front, side pockets, and trim at cuffs and hem. Soft, brushed inside."
+    },
+    {
+      "id": 17,
+      "title": "Regular Fit Cargo Pants",
+      "category": "pants",
+      "fashionChoice": "male",
+      "price": "39.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe0%2Fea%2Fe0ea22984d81cd96ffe23ddba11c35009c0cfc11.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff2%2F62%2Ff26239c1e49df652eee892cfbc7e667bad75a55c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F61%2F3d%2F613d3578fabbb58578652ceee9fcfdc68f0a3fab.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F18%2Fa8%2F18a8fd13d9958993246a2e93b5922b4de0972b62.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#272628",
+          "colorName": "Black"
+        },
+        {
+          "colorCode": "#ebe0bf",
+          "colorName": "Beige"
+        }
+      ],
+      "productDescription": "Pants in woven stretch cotton fabric. Elasticized waistband with internal drawstring and zip fly with button. Diagonal side pockets, one with a smaller inner pocket, and back pockets with flap and button. Shaping seams at knees for added freedom of movement and covered elastic at hems. Regular Fit – a classic style with freedom of movement over thighs and knees for a comfortable, straight-cut silhouette."
+    },
+    {
+      "id": 18,
+      "title": "Regular Jeans",
+      "category": "jeans",
+      "fashionChoice": "male",
+      "price": "24.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fbf%2Fcc%2Fbfcc50ec7c4fc88812bf0b9f758ebf0cc4cd219b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1d%2Fca%2F1dcaf093a3f27269599fd5f6e032fe11efd04e1f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F90%2F4c%2F904ce609d66795402ca93236addda6789a6433a0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F2d%2F0c%2F2d0ca664fea215f56b728d25186a34b5ebab483a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#8898ac",
+          "colorName": "Light denim blue"
+        },
+        {
+          "colorCode": "#2f4463",
+          "colorName": "Denim blue"
+        },
+        {
+          "colorCode": "#687483",
+          "colorName": "Dark blue"
+        },
+        {
+          "colorCode": "#272628",
+          "colorName": "Black"
+        }
+      ],
+      "productDescription": "5-pocket jeans in stretch cotton denim. Regular waist, zip fly with button, and straight legs with good room for movement over thighs and knees."
+    },
+    {
+      "id": 19,
+      "title": "Tulle-skirt Jersey Dress",
+      "category": "",
+      "fashionChoice": "kids",
+      "price": "14.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F38%2F1e%2F381e6aec95ecaab5d635ee6ae363b26c78fa9922.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fba%2Fa5%2Fbaa577d32f0d7ca5e42fc357a376b38347012ee0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F2e%2Fe9%2F2ee9abc8ebc9d14b9ef40e9f74b1fa0e4353db1a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc3%2F12%2Fc312f044c17ecc3621910a53bd5c03c7ec287206.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#ffffff",
+          "colorName": "White/unicorn"
+        },
+        {
+          "colorCode": "#272628",
+          "colorName": "Dark gray/dalmatians"
+        },
+        {
+          "colorCode": "#e09d9a",
+          "colorName": "Pink/unicorn"
+        }
+      ],
+      "productDescription": "Short-sleeved dress in cotton jersey with a design at front. Seam with glittery elastic waistband above a flared skirt with a layer of tulle."
+    },
+    {
+      "id": 20,
+      "title": "Cotton Flannel Shirt",
+      "category": "shirts",
+      "fashionChoice": "kids",
+      "price": "19.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F01%2F01%2F0101eef6478751992f1a34ee9e88daaab2b291db.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd2%2Fe2%2Fd2e29ee854bd45b4369859355a5843803f76f60c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7c%2Fc2%2F7cc202313908d1add4df2ac5ab8d14b96b7f0fa8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7c%2Fc2%2F7cc202313908d1add4df2ac5ab8d14b96b7f0fa8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#4995ca",
+          "colorName": "Blue/checked"
+        },
+        {
+          "colorCode": "#23396c",
+          "colorName": "Dark blue/white plaid"
+        },
+        {
+          "colorCode": "#97562a",
+          "colorName": "Brown/checked"
+        }
+      ],
+      "productDescription": "Shirt in soft cotton flannel. Collar, buttons at front, and double-layered yoke at back with seam. Open chest pocket. Long sleeves with button and placket at cuffs. Rounded hem."
+    },
+    {
+      "id": 21,
+      "title": "Cotton T-shirt",
+      "category": "tops",
+      "fashionChoice": "New Arrival",
+      "price": "6.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe0%2F15%2Fe015ad8ea64decf4dd95ea7bb87c8ec232d36353.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fcb%2F6c%2Fcb6c13e0640b5ab646f80e26d44a3759f5e8986d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7f%2F81%2F7f81f17ca654344001eb4e586c7c29f7b452cfb8.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F75%2Fa4%2F75a4875c32b715ec78c9fbcf4cd4d985240aad2c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#c6d3db",
+          "colorName": "Light blue"
+        },
+        {
+          "colorCode": "#ffffff",
+          "colorName": "White"
+        },
+        {
+          "colorCode": "#cccccc",
+          "colorName": "Black"
+        },
+        {
+          "colorCode": "#c8c7cc",
+          "colorName": "Light gray"
+        },
+        {
+          "colorCode": "#dcddd7",
+          "colorName": "Light green"
+        },
+        {
+          "colorCode": "#d8d0c7",
+          "colorName": "Light beige"
+        },
+        {
+          "colorCode": "#c1b8a3",
+          "colorName": "Light khaki green"
+        }
+      ],
+      "productDescription": "T-shirt in cotton jersey. Slightly wider neckline with narrow trim."
+    },
+    {
+      "id": 22,
+      "title": "Wide-cut Cotton T-shirt",
+      "category": "tops",
+      "fashionChoice": "New Arrival",
+      "price": "12.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F04%2Ffe%2F04fef8cf0dec133d68bcfb3f7610100e9ead856b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F56%2F15%2F56150be3fdbb5fe8bd914bc1af6af8848fc6a2c5.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F9d%2Fc2%2F9dc2c387d4d641c2cbaee82dc92b0973d4cf914b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fcf%2F61%2Fcf612cf95608c71ec698e9c9966ead74f3c9e008.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#231f20",
+          "colorName": "Black"
+        },
+        {
+          "colorCode": "#ffffff",
+          "colorName": "White"
+        },
+        {
+          "colorCode": "#c6beb5",
+          "colorName": "Light beige"
+        },
+        {
+          "colorCode": "#b6b8b9",
+          "colorName": "Light gray melange"
+        },
+        {
+          "colorCode": "#e5d0c9",
+          "colorName": "Powder pink"
+        },
+        {
+          "colorCode": "#432f30",
+          "colorName": "Dark brown"
+        }
+      ],
+      "productDescription": "Wide-cut T-shirt in soft cotton jersey with gently dropped shoulders."
+    },
+    {
+      "id": 23,
+      "title": "Oversized Graphic T-shirt",
+      "category": "tops",
+      "fashionChoice": "New Arrival",
+      "price": "19.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F44%2Fb2%2F44b20d2cb4b97f1d6602a9f75cf9eb6a94b8ae2e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F65%2F73%2F6573954979987cff7c40a9d1cead4d9c506a2020.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F3a%2F50%2F3a50fe95d1ce5191c31541a01fd4c455427c23be.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F5c%2Fe4%2F5ce4819869e7395a2d8474061fa87a250dfba519.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#dfd8c8",
+          "colorName": "Light beige/Run-D.M.C"
+        }
+      ],
+      "productDescription": "Oversized T-shirt in soft, organic cotton jersey with a printed graphic design at front. Ribbed crew neck and dropped shoulders."
+    },
+    {
+      "id": 24,
+      "title": "Short Satin Top",
+      "category": "tops",
+      "fashionChoice": "New Arrival",
+      "price": "14.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Faf%2Fd2%2Fafd21df606415bce8845f726dafa5d13e4cc596b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F43%2Fe4%2F43e4a98b86ec24f148bef256aaccc4cac0ea300c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F44%2F9a%2F449a65c4f31b37c7360eb9ec837c09fd7eb8e2fd.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F48%2Fdd%2F48dd9666a38e962c8366baab947265925707ffe7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#2c262a",
+          "colorName": "Black"
+        },
+        {
+          "colorCode": "#ffffff",
+          "colorName": "White"
+        },
+        {
+          "colorCode": "#724644",
+          "colorName": "Dark brown"
+        }
+      ],
+      "productDescription": "Short top in satin. Narrow, adjustable shoulder straps, shaped cups, and lace trim at upper and lower edges."
+    },
+    {
+      "id": 25,
+      "title": "Hoodie",
+      "category": "basics",
+      "fashionChoice": "New Arrival",
+      "price": "24.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F65%2Fc4%2F65c4404c6fb04eb62623564bf800c4d29ad975cc.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_cardigansjumpers_hoodiessweatshirts%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F92%2Ff1%2F92f1e15aeb54d37eec07d9d7f2a951c070a6107b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_cardigansjumpers_hoodiessweatshirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff2%2F60%2Ff260b7da2a5bbb3a14a42d9b4b78c3d9bb02b45f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_cardigansjumpers_hoodiessweatshirts%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F82%2F83%2F8283bd645336c73eeff198afdb5b8e84f7c1d378.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_cardigansjumpers_hoodiessweatshirts%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#cccccc",
+          "colorName": "Black"
+        },
+        {
+          "colorCode": "#ffffff",
+          "colorName": "White"
+        },
+        {
+          "colorCode": "#b2b2b0",
+          "colorName": "Light gray melange"
+        },
+        {
+          "colorCode": "#cec7cb",
+          "colorName": "Light purple"
+        }
+      ],
+      "productDescription": "Wide-cut sweatshirt with a lined drawstring hood, kangaroo pocket, and ribbing at cuffs and hem."
+    },
+    {
+      "id": 26,
+      "title": "Jersey Joggers",
+      "category": "basics",
+      "fashionChoice": "New Arrival",
+      "price": "14.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F44%2Ff1%2F44f148fb8be100f652d4933a7b962f2f22b5fbf0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F44%2Fc9%2F44c9455611042f08ae6a45fc18bb173fe7b3b26b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F6e%2F79%2F6e792c0b54c8d5347a42bab04d61dd598b944ab4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F02%2Fac%2F02ac64741111952e2882d7bd563f1fbba9c51336.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#cccccc",
+          "colorName": "Black"
+        },
+        {
+          "colorCode": "#adaaad",
+          "colorName": "Light gray melange"
+        }
+      ],
+      "productDescription": "Joggers in thick, cotton-blend jersey. Ribbed, elasticized waistband with drawstring. Slim legs with ribbed hems."
+    },
+    {
+      "id": 27,
+      "title": "Crop Sweatshirt",
+      "category": "basics",
+      "fashionChoice": "New Arrival",
+      "price": "14.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff5%2Fdf%2Ff5dfa5191fa4c6bcc8afac1a0da2637b1724c7fb.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F09%2F61%2F096128947e9592aca27ff7a9f6272eddf4bae4a1.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fde%2Fc5%2Fdec5676b324a839cd2788cf0e747b3b1bac5f178.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F9e%2F5e%2F9e5e16da13ab5a2acf1268d60d0c5b17d0d5fe8b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#cccccc",
+          "colorName": "Black/Love"
+        },
+        {
+          "colorCode": "#e5e1d6",
+          "colorName": "Cream/Smile"
+        },
+        {
+          "colorCode": "#dac5bc",
+          "colorName": "Light powder pink/Smile"
+        },
+        {
+          "colorCode": "#a2a4a6",
+          "colorName": "Gray melange/Love"
+        }
+      ],
+      "productDescription": "Short, soft sweatshirt with an embroidered detail at top. Crew neck, dropped shoulders, and long sleeves. Ribbing at neckline, cuffs, and hem."
+    },
+    {
+      "id": 28,
+      "title": "Mesh Shirt",
+      "category": "shirts-blouses",
+      "fashionChoice": "New Arrival",
+      "price": "19.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F55%2F42%2F55423451ad069ecb06e9c346df242f5cea46b641.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ffc%2Fbb%2Ffcbb66dd3d280f1624c24ad7c21c01ce59bf8120.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F0c%2F3a%2F0c3a98eaa864d0e22e172a03975e897046a2bbe0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F01%2F2e%2F012e9c945ce6f47da98fc06ea3810db0d89d45cf.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#cccccc",
+          "colorName": "Black"
+        },
+        {
+          "colorCode": "#65423d",
+          "colorName": "Brown"
+        }
+      ],
+      "productDescription": "Fitted shirt in mesh. Collar, buttons at front, and long sleeves with button at cuffs."
+    },
+    {
+      "id": 29,
+      "title": "Wide-cut Satin Blouse",
+      "category": "shirts-blouses",
+      "fashionChoice": "New Arrival",
+      "price": "39.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F32%2F47%2F3247542f28e99f7b75a5bb81c33e1be0adba403f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F5f%2F5b%2F5f5ba3abbc5e16502b55d37ecbe15d2a342a50ed.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F42%2Fdd%2F42dd19c7bdb80bc641ad88c18fdb15752a8f3e46.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1c%2F4e%2F1c4e0993b314e6c56867e79e67652fc7293bb6b3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#cfcabd",
+          "colorName": "Light beige"
+        },
+        {
+          "colorCode": "#b7b8be",
+          "colorName": "Light gray"
+        }
+      ],
+      "productDescription": "Longer blouse in satin. Open collar and double-layered yoke with gathered seams on shoulders and at back for added volume. Dropped shoulders, long balloon sleeves, and wide cuffs with buttons. Rounded hem."
+    },
+    {
+      "id": 30,
+      "title": "Cotton Shirt",
+      "category": "shirts-blouses",
+      "fashionChoice": "New Arrival",
+      "price": "29.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F46%2Ff5%2F46f530bfa4987341dbedcd49e9ad62ce91c9f0ef.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd1%2F12%2Fd112a9369a034cf454e53df0de3ae01460dff670.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb7%2Fbd%2Fb7bde5b6533a84c9271c4b9b81b3e66c23e02fe6.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fdc%2Fac%2Fdcac535c1233e98d0fabae9d261972b4a1522e0f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#ffffff",
+          "colorName": "White"
+        },
+        {
+          "colorCode": "#cad5e9",
+          "colorName": "Light blue"
+        },
+        {
+          "colorCode": "#f3e0e7",
+          "colorName": "Light pink"
+        }
+      ],
+      "productDescription": ""
+    },
+    {
+      "id": 31,
+      "title": "Wide-cut Shirt",
+      "category": "shirts-blouses",
+      "fashionChoice": "New Arrival",
+      "price": "19.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd1%2Fd1%2Fd1d1f152cd5aa208baef221f254f96f1a02f5fe7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F13%2Fa0%2F13a025931716dda3a3b7d8861f1c215393c92940.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_shirtsblouses_shirts%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7c%2Ffc%2F7cfcad69566f8431110adde8506700fea96162dd.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fcf%2F30%2Fcf30619ae0b8ff81b54c599934ae968391168682.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#cccccc",
+          "colorName": "Black/white plaid"
+        },
+        {
+          "colorCode": "#a5c2e0",
+          "colorName": "Black/white plaid"
+        },
+        {
+          "colorCode": "#153f3f",
+          "colorName": "Dark green/black plaid"
+        }
+      ],
+      "productDescription": "Wide-cut shirt in soft, woven cotton fabric. Collar, buttons at front, and an open chest pocket. Dropped shoulders and long sleeves with button at cuffs."
+    },
+    {
+      "id": 32,
+      "title": "Rib-knit Cardigan",
+      "category": "cardigans-sweaters",
+      "fashionChoice": "New Arrival",
+      "price": "34.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F02%2F69%2F0269a12aa1d19db073542bdd78ee2f76e122c9aa.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F26%2Ff2%2F26f2c8241194b6fe2e6bd3030ff6899d2e7b7f5e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fac%2F23%2Fac23b698305bd5090c4bcdbf253ccae01aa87483.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F95%2Fe8%2F95e8047c54b8e9cd92b561bae3e5af2a7aafaacf.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#b89073",
+          "colorName": "Beige"
+        },
+        {
+          "colorCode": "#a59f97",
+          "colorName": "Gray melange"
+        }
+      ],
+      "productDescription": "Relaxed-fit, rib-knit cardigan with wool content. V-neck and buttons at front. Dropped shoulders, long, wide sleeves, and patch front pockets. Slits at sides."
+    },
+    {
+      "id": 33,
+      "title": "Cropped Turtleneck Sweater",
+      "category": "cardigans-sweaters",
+      "fashionChoice": "New Arrival",
+      "price": "19.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fcb%2F7d%2Fcb7d93a683cee9c438fea65a5a26e768bb5ea272.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_cardigansjumpers_jumpers%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F19%2F93%2F199382a5d2c4a9c00729e563b7a769d6d02c6447.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_cardigansjumpers_jumpers%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F2a%2F4e%2F2a4e58aa2810bc582fbdc7f19b625ca5e70d9e88.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_cardigansjumpers_jumpers%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fd0%2F9a%2Fd09a5e351fd76bd69c7a70b2a182219e38ff39ab.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bladies_cardigansjumpers_jumpers%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#1c1a1d",
+          "colorName": "Black"
+        },
+        {
+          "colorCode": "#ebe9db",
+          "colorName": "White"
+        },
+        {
+          "colorCode": "#b88ba4",
+          "colorName": "Purple"
+        }
+      ],
+      "productDescription": "Boxy turtleneck sweater in a soft rib knit. Dropped shoulders and long, slightly wider sleeves with ribbed cuffs."
+    },
+    {
+      "id": 34,
+      "title": "Fine-knit Cardigan",
+      "category": "cardigans-sweaters",
+      "fashionChoice": "New Arrival",
+      "price": "14.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fcf%2F40%2Fcf40cda36b531029d0fb74134eddebe89f7360ad.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F3e%2Fc53edc6a02f6342fa349895d8802e47d4969988e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F45%2F51%2F455194a54d285bd546bef853c79fde53e5630d19.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1b%2Ffb%2F1bfbd9f2a317a24d7fbb0fc09998bb9390dc865c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#1b1718",
+          "colorName": "Black"
+        },
+        {
+          "colorCode": "#e7e6e0",
+          "colorName": "Cream"
+        },
+        {
+          "colorCode": "#846f6d",
+          "colorName": "Taupe melange"
+        },
+        {
+          "colorCode": "#c3c5c6",
+          "colorName": "Light gray melange"
+        },
+        {
+          "colorCode": "#716059",
+          "colorName": "Dark taupe"
+        },
+        {
+          "colorCode": "#291b1a",
+          "colorName": "Dark brown"
+        }
+      ],
+      "productDescription": "Cardigan in a soft, fine-knit viscose blend with buttons at front and ribbing at neckline, cuffs, and hem."
+    },{
+      "id": 34,
+      "title": "Fine-knit Cardigan",
+      "category": "cardigans-sweaters",
+      "fashionChoice": "New Arrival",
+      "price": "14.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fcf%2F40%2Fcf40cda36b531029d0fb74134eddebe89f7360ad.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F3e%2Fc53edc6a02f6342fa349895d8802e47d4969988e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F45%2F51%2F455194a54d285bd546bef853c79fde53e5630d19.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1b%2Ffb%2F1bfbd9f2a317a24d7fbb0fc09998bb9390dc865c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#1b1718",
+          "colorName": "Black"
+        },
+        {
+          "colorCode": "#e7e6e0",
+          "colorName": "Cream"
+        },
+        {
+          "colorCode": "#846f6d",
+          "colorName": "Taupe melange"
+        },
+        {
+          "colorCode": "#c3c5c6",
+          "colorName": "Light gray melange"
+        },
+        {
+          "colorCode": "#716059",
+          "colorName": "Dark taupe"
+        },
+        {
+          "colorCode": "#291b1a",
+          "colorName": "Dark brown"
+        }
+      ],
+      "productDescription": "Cardigan in a soft, fine-knit viscose blend with buttons at front and ribbing at neckline, cuffs, and hem."
+    },{
+      "id": 34,
+      "title": "Fine-knit Cardigan",
+      "category": "cardigans-sweaters",
+      "fashionChoice": "New Arrival",
+      "price": "14.99",
+      "imageA": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fcf%2F40%2Fcf40cda36b531029d0fb74134eddebe89f7360ad.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageB": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc5%2F3e%2Fc53edc6a02f6342fa349895d8802e47d4969988e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      "imageC": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F45%2F51%2F455194a54d285bd546bef853c79fde53e5630d19.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "imageD": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1b%2Ffb%2F1bfbd9f2a317a24d7fbb0fc09998bb9390dc865c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "swatches": [
+        {
+          "colorCode": "#1b1718",
+          "colorName": "Black"
+        },
+        {
+          "colorCode": "#e7e6e0",
+          "colorName": "Cream"
+        },
+        {
+          "colorCode": "#846f6d",
+          "colorName": "Taupe melange"
+        },
+        {
+          "colorCode": "#c3c5c6",
+          "colorName": "Light gray melange"
+        },
+        {
+          "colorCode": "#716059",
+          "colorName": "Dark taupe"
+        },
+        {
+          "colorCode": "#291b1a",
+          "colorName": "Dark brown"
+        }
+      ],
+      "productDescription": "Cardigan in a soft, fine-knit viscose blend with buttons at front and ribbing at neckline, cuffs, and hem."
+    }
+    
+  ]
+  
+}

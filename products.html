@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>H&M | Online Fashion, Homeware & Kids Clothes | H&M IN</title>
+  <link rel="stylesheet" href="./products.css" />
+  <link rel="icon" href="img/favicon.ico" type="image/png" />
+  <link rel="stylesheet" href="https://s1-cdn.hm.com/global/fonts/4.0.12/hm/css/fonts_en_in.css" />
+  <script src="https://kit.fontawesome.com/427e31584d.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      background-color: whitesmoke;
+      font-family: "HM Sans Regular", "ヒラギノ角ゴ Pro W3",
+        "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック",
+        "MS PGothic", sans-serif;
+      font-weight: 400;
+    }
+
+    .leftbox {
+            /* border: 1px solid red; */
+            display: inline-block;
+        }
+
+        .leftbox ul {
+            display: flex;
+        }
+
+        .leftbox ul li:nth-child(1) {
+            margin-left: -20px;
+        }
+
+        .leftbox ul li {
+            list-style-type: none;
+            margin: 0 8px;
+        }
+
+        .leftbox ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+        }
+
+        #nav {
+            /* border: 1px solid red; */
+            width: 100%;
+            height: 151px;
+        }
+
+        .rightbox {
+            /* border: 1px solid red; */
+            width: 21%;
+            height: 22%;
+            margin-left: 85%;
+            position: relative;
+            top: -25%;
+            right: 1%;
+        }
+
+        .rightbox ul {
+            display: flex;
+        }
+
+        .rightbox ul li {
+            list-style-type: none;
+            margin: -3% 7% 0 0;
+        }
+
+        .rightbox ul li:nth-child(1) {
+            margin-left: 8%;
+        }
+
+        .rightbox ul li a {
+            text-decoration: none;
+            color: black
+        }
+
+        .logo {
+            height: 25%;
+            width: 3%;
+            /* border: 1px solid red; */
+            margin: -54px auto 20px;
+        }
+
+        .logo img {
+            height: 100%;
+        }
+
+        .topnext1 {
+            height: 41%;
+            width: 50%;
+            /* border: 1px solid red; */
+            margin: 0% auto;
+            text-align: center;
+            background-color: whitesmoke;
+        }
+
+        .topnext1 ul {
+            display: flex;
+        }
+
+        .topnext1 ul li:nth-child(1) {
+            margin-left: 22%;
+        }
+
+        .topnext1 li {
+            list-style-type: none;
+            margin: 1% 2%;
+        }
+
+        .topnext1 li a {
+            color: black;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        #top1 {
+            display: flex;
+            /* border:1px solid red; */
+            margin: auto;
+            position: relative;
+            z-index: 10;
+            background-color: whitesmoke;
+            width: 500%;
+        }
+
+        #top1 ul li {
+            list-style-type: none;
+            cursor: pointer;
+        }
+
+        .search {
+            height: 11.8%;
+            width: 5%;
+            padding: 10px 14px 8px 19px;
+            border-bottom: 1px solid;
+            margin: -3% 0 0px 86%;
+        }
+        .box {
+            /* border: 1px solid red; */
+            width: 52%;
+            height: 21%;
+            padding: 2px 1.2%;
+            margin: 1% 23%;
+        }
+        .search a i {
+            height: 19px;
+            margin-left: -16px;
+            margin-top: -4px;
+            color: black;
+        }
+
+        .search input {
+            margin-top: -0.1%;
+            height: 2.5%;
+            width: 5%;
+            position: absolute;
+            margin-left: 0.5%;
+            border: 0px;
+            background-color: whitesmoke;
+        }
+        .box ul {
+            display: flex;
+        }
+
+        .box ul li {
+            list-style-type: none;
+            margin: 0% 4%;
+        }
+
+        .box ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+
+    .heading {
+      margin-left: 20%;
+    }
+
+    .heading,
+    h1 {
+      font-size: 40px;
+    }
+
+    .filter {
+      font-weight: 400;
+      font-family: "HM Sans Regular", "ヒラギノ角ゴ Pro W3",
+        "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック",
+        "MS PGothic", sans-serif;
+      margin-left: 20%;
+      gap: 3px;
+    }
+
+    #display {
+      width: 80%;
+      height: auto;
+      /* border: 2px solid green; */
+      /* margin-left: 20%; */
+      display: grid;
+      grid-template: "div div div div";
+      gap: 5px;
+      float: right;
+    }
+
+    #display>div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .item-heading {
+      color: red;
+    }
+
+    .productImage {
+      width: 300px;
+      height: 500px;
+    }
+
+    .product_item_title {
+      cursor: pointer;
+    }
+
+    .newarrival {
+      font-size: 12px;
+      line-height: 20px;
+      font-weight: 300;
+      text-align: start;
+    }
+
+    h4 a:link {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    h4 a:hover {
+      color: #e5002e;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    .leftside {
+      max-width: 19%;
+      min-width: 19%;
+      float: left;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .leftside .newArrival h4 {
+      line-height: 0%;
+    }
+
+    .leftside .newArrival ul li {
+      line-height: 170%;
+    }
+
+    .leftside .newArrival ul li a {
+      color: black;
+      font-size: 13px;
+      line-height: 24px;
+    }
+
+    .leftside .newArrival ul li a:hover {
+      color: #e5002e;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    .newArrival h4 {
+      margin-left: 40px;
+    }
+
+    .newArrival ul {
+      margin-top: -1px;
+    }
+
+    .newArrival ul li {
+      list-style: none;
+    }
+
+    .newArrival ul li a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #e5002e;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    #sortings {
+      border: none;
+      outline: none;
+      background-color: whitesmoke;
+      width: 150px;
+      height: 40px;
+    }
+
+    .filter,
+    select,
+    option:hover {
+      color: red;
+      font-size: 15px;
+      font-weight: 400;
+    }
+    .footer {
+            height: 320px;
+            width: 94%;
+            background-color: #E4E4E4;
+            padding: 3%;
+            margin-top: 305%;
+        }
+
+        .details {
+            height: 250px;
+            width: 894px;
+            /* border: 1px solid black; */
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .icons {
+            width: 250px;
+            height: 17px;
+            /* border: 1px solid black; */
+            margin: -64px auto 20px;
+            padding: 10px;
+        }
+
+        .icons a {
+            margin: 0 15px;
+        }
+
+        .icons a i {
+            color: black;
+        }
+
+        .first {
+            height: 190px;
+            width: 150px;
+            /* border: 1px solid black; */
+        }
+
+        .first li {
+            list-style-type: none;
+            margin: 12px -37px;
+        }
+
+        .first h6 {
+            margin: 2px 2px;
+        }
+
+        .first li a {
+            text-decoration: none;
+            color: black;
+            font-size: 13px;
+        }
+
+        .second {
+            /* border: 1px solid black; */
+            width: 226px;
+            height: 214px;
+        }
+
+        .second li {
+            list-style-type: none;
+            margin: 11px -35px;
+            font-size: 12px;
+        }
+
+        .second h6 {
+            margin: 2px 5px
+        }
+
+        .second li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .third {
+            /* border: 1px solid black; */
+            width: 226px;
+            height: 214px;
+        }
+
+        .third h6 {
+            margin: 2px 5px
+        }
+
+        .third li {
+            list-style-type: none;
+            margin: 17px -35px;
+            font-size: 12px;
+        }
+
+        .third li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .forth {
+            height: 230px;
+            width: 228px;
+            /* border: 1px solid black; */
+        }
+
+        .forth p:nth-child(1) {
+            margin: 1px 6px 21px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .forth p:nth-child(2) {
+            font-size: 13px;
+            margin: 20px 5px;
+            line-height: 16px;
+        }
+
+        .forth a {
+            margin-left: 5px;
+            font-size: 11px;
+            color: black;
+            text-decoration: none;
+        }
+
+        .text {
+            width: 636px;
+            font-size: 11px;
+            text-align: center;
+            margin: -8px auto;
+        }
+
+        .endlogo img {
+            height: 17px;
+            margin-left: 46%;
+            margin-top: 1%;
+        }
+
+        .endlogo p {
+            margin-left: 48.1%;
+            font-size: 11px;
+            margin-top: 26px;
+        }
+  </style>
+</head>
+
+<body>
+
+  <div id="nav">
+    <div class="leftbox">
+        <ul>
+            <li><a href="#">Customer Service</a></li>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Find a store</a></li>
+        </ul>
+    </div>
+    <div class="rightbox">
+        <ul>
+            <li>
+                <i class="far fa-heart"></i>
+                <a href="#">Favorite</a>
+            </li>
+            <li>
+                <i class="fas fa-shopping-bag"></i>
+                <a href="#">Shopping bag</a>
+            </li>
+        </ul>
+    </div>
+    <div class="logo">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARQAAAC3CAMAAADkUVG/AAAAk1BMVEX////gACbeAADgACTgACLfABvgAB/fABLfABffABnfAA7fABHfAAn75+n//P386uzoaXTxp63+9/j2yc3kPE3umJ/41NfnX2v98PHti5PwoKf64uT52dzmUF73ztL1wcXztrvlSFfysbbrgInqeYPuk5vmV2T0vcLrf4jhGzTjMkXqc33iIjnoZ3LhEC3nXGnkP1CxUBCUAAAVYElEQVR4nO1daXPbug61KG+xFSd2lnrJHidutrb//9c9WwsJUjgESTm382aKT3du7ZiiiAPgYGGv90/+yT/5/5TZxdV2dfa3V1HJ2c3N317CXhZPr0qNxiO1+dsr6W2ubtVBVsf9s9f3kft88aWKYXaQ8Xn3n19crFdXF2nfPXt5U6Nhvl9Jrp66L0XLS6EK9Rj++ZvVQA3yrJLhe8dfX64vlZruj1zKH7q/VaN+1iwl4hkEOfs1OTxgsQ37+On6U42bHTms5LLTr9+9qml15LIi9vgv1n01NCvJ8mGnpRA5rdUgV/Jnl/erTzXtZ1ROuqjP7p08Vf8t5qvX61t3Kfm4w1KozLJmVWopfHTxQxVjexl7ma5Tf/rsKlP0z4W8lmYpq/EeSNyl9LtqciPn4+ZPSpuyzMbuKsqvpVmf0z2SjJwdDt6UnRrlzFIGP5KW0pIbpd9TIXz0fcDtSdyZr2U2f9dIkrApa8VtSZaNXhLWwsitXpq0zU+KX8hV/I+u1KS9I/vXMgn7+gO/kj1S38evhZFT8/fVzv/RzxaaVF+L9mg32YR/0XkeuGb+6wGoGCYrDRP51P/JC/71xLsGN4rf3b0mfgb9gXfulJXf/xW7Fl7MOxsLTsIrv5TiIfIXZydoTwI9njVSnuzkI3ItvDwU+i+qU+8nT/mlRFjRWp5H6Jmy4W3A9xdQebLJcbz8S/36JTV4Zs1xNv4Z+Ysz/EzZIMQNXOFNPU5ougmGWfQsKjZef5rAZwraYc9BOZI/uzUwe+L/5Jp/lngX8hKhZBbmZngOynFcN/L6JZj9xaPjZB75kxuIkmF/zXNQOsQbVMhRFrwNYI9ztYj8yRUPTZUUgqe0lxd8UDJ1HbkYVow7JuH+LX/og5DRkj60x4enupO+7oPpTM1iV8PINYFZv3+MDr38FI6AE9f8OdF6XE3xtzvyOrV8nDR/ry+QMz/5Qx/vQZqfZDdFVEYQH5Qyfo5dDSMEswTYR4c2Phb0nf4ARxDYwEoCEEkW8gtCIDUHa4mOv4gDzYgc+pz49jQ+MmXkzcDsq/+TwB5LX2sLwOvm70le/ty3p/kgdjWM3BGY9ScXEDoK6NyWpRdm5XjOa7oGX5Gr4eRL82j9zP9JEB/Hv5q1x3ZkskP75FW+Y7huC/PWBLwE8bHoBLfl3fem5SAXaHEtx3DdyFsT8BI5oQLX0Bavi5+JWgxJyPrbkavhxGz74Lf/kwUP+fGUm89FLx/L77u9eQ/KMVy3i2CYRZocTbkJTyX5bjv/QTmG6/Y7GGYBXx3KvBu5EbRHIIkFQIp/Ry1ZBsPsNYLZ6DfjDZAzyXfzR00JCNeWK6PeAsx+sRmwFOpv4HNHM8kX9JFT2XFYt9zArJ+uQv5WPK7dCa/af/akb8d71y25D4bZK2AximjifOsNkDPB+3r0H5SkPKUjxkeVon/gWcdnNrxRf7XPnihXAmnp3QbIWTDM3iOYDSzwMSIBpT8x8Bsgm/lyLC/akpdgmEVhbXRmQ6CXhKVIvnBa6YMthpYQYBaFPQnFMV566SA+jTyXdrR7wjQcZkFaMD6zAfUwaKPPxC/HL8iV22CYBWFPfGYDujtGPId2K7h9RwiRyb5P/TCLwp74w+pNTVSCmQhfAqzZlNgFubIKhllUCBL/XnZefqgUrAFmwSj86R4iD0JhFjkHCVD/Q9QeDG/mlPUfwa50DpHDYRZZ0XjiL0B7cDBl6LBiDcClc4hMYNZPGsAniYdZf2qj/qvoy7q6e/h7DoKOroUp4d4syvYk0OaiQ7p/Q6gI0OQ11A2wYWKxqySE1RBgFrBLCWHGTPQzPEkfzZsOHxH7EFQW5hPTaiBws4hdSihBDNEeFE0ZFlLdIR6ja01xOMyegyOfEKSTxBHkFBF6a7dg+N67R3Rxx5piArP+St4FOvLxBbzkTw1/I14EPJgJrtV97wUlW7rVFFOY9Z85lM1LoLiI9hRPKEkIDIgmlw4MLojZ8370kiwJJw1QOi46gWxRWp+QLeLLkMzH1UOvN+VxtmsB4DC00gBxolIVJSO0DubqDsACKMvXNvjgUyEiY9Qti0xh1v/GkV8en0C2qro3KAjirarR9mKOA6joIjNbyEH2F3TBoomE9ArJu31Cj5C3yLqsrMxgwKR2Jypy2R1m49s5Z5YLjbIDrEU2ildyHABnO1KRFGb9tVAIZhMiL0t74NtmLbLewbyEYRCLdaQi+6F1sxBmoxPIFJ0OVhVF3qxF1t53iWSIve5GRdJKA38lISIPE3iLGbU9+y1CvBVjkQ3xV7oPKFjoRkUaxBMyr9ibjZ+xsLO0p/cH+F+cRdalG5WCQJyNXhMRArOCYYUwm9D2a2sPqlHh1Nn4D5Vugcxpt15kWmngN6wIZlM6r2ztQU4pZ5H1oar9TICz8clK/lEFwwphNqEj4N7WHsSsMBaZePglaECc7dIjRx5VMKwoH3dyaNxa3lw8rFcfH8/zoAJnQ0CU7gRKazEWWYN9TdVDnO0yS8ZYFIG9g2mW4e1jdhjdUkzHJyfjiQo5t079P4oH2092RjmDg3wHzpJHFVr1kCe+35WhBTYBg21osHV4bli83fLU9R40TB/A2eGfpO2ohLYn+A+cUHFnJKBIhXTPlM8GdKBdvG3cm8Y3AyncTikf0gXmt2FifYwRGXjNk1ReADD2beTXx7XRdYSzXVI+hIb2VGYt7+Y/gw9KQHH+haM9CBja4Ysmc0e1jkLeoEPKx5xjYFg3D6vXvlKT9tAYKLKHYMoF+hVlCAxbiwzXHH7eEIRgO7ukfEgE0nors5un7eXepoyHcm7TEvklmXxKrfog+m/pgC4Q1asF3+wymoo225L4aXY9334ejkfsfpR/SDQ+tKWoYsfQuBEnprtxPPy9sJN1kphALZeEO25++Gn7vt8PPKPCL30lZ6CeWw3yaDiAQ6JrLdMxEeJnOzQOEuie7mH2bLd6jIOPlozfAgDOpL5q+EFevmPbTeiqE3YQZ9Orz0nt2vjqvJ+AH44UIVkFYtzrhwPv263K1wyh+QeQB5Mm4fiEFvaOpRr5AAny8OkUn9pGgPy0m7jR+GG8B9Cy1yG1HlBcFSVFGCtquJPGhoCFOGipGbd81N4nW9JT66eA7kqVcdjrIUDWBMEgrJraLKs2UeaRI6LrkJU9nQ/UcfdkGJhSMKSWDpJAw5z9aHfGcdNhIqo3iG/QPn06H6vJESDEkjx0Ie/t9hnA5dsRqiYwiZsJdpPoV4gsH7bZ8TekfIKHsBWcMaQWcEstN2XZdtx6PVDBMRR6QonMLlafqkj1ygQJHslLe3wbNeCDTZuC0DaLevDg7Ybi7M1675d1ccv8Ig0VMWLQ3dhNnhOx3RTtPpASAJTaDsHZ5cP5iBlIekwJzjyR59ApPODQWlUh2h7T2jpI2EklTNcv73ud+QYQsVYRXAryxAwiAYb1hLqCWsNoNnQNcNZfwnT38d1HpJSIcePGBTWF88ChpchwbewxoX1AGtdbwnT3qb77iBykH35O3BRyJcDboJkbnRKxuFeQnfMVaj7AsZ3HlHyaRWSynRRyJcChJbWrxB6T8Bfltn1Fr99na4zko7hJ/U4SrBLgghF/RHvBFviilKUPZ70DaI4h+UBNVnG1qi6NXwpoTSbPpv0R6xCAE+ZtuPCMUzyC9KeqOI+NuyiNb5SOj/+J76b5artkC0QH3s6JmdgH3UH6b/OEZC2Z1EnyILxDSxwSnQW0q5NA1sVfKiqMFukkaf3yxi2neRCe7jOJz42xx/SPQRJTmEjwfSY5aXradYuILEXi3TRraudCYVZegLnNR3OHypElLa9CiEjyzkEEY/L9Gp3tNwHm+ob02OwufTMEUyUtVWuISAqG4I1rh1aHPU6JPGgZD+tQe06GlhwpX8L0i55NRD6Y/w3COg2qGk8dsABsamB/53nCWcmH40L9+gS7cpJUUMZRKT1Yh9Hks/RBcvUCZdACS/L/iKMnLOmfTJR6XN0ve+ioMEzB4lSE3kuGSunBOozmXGhvxKkWhsNwA0vyZ79C0TYfjpT63D5VPgjiK1pl75ttfijwevQW33FUykFA4UDN0OoQ0i2LAHmR8F7Gs4Cu6OygMOPfVxdmp1GFteukbCtOLx8WQ4+PgEZnI9q6Cv20L+9WeIDkYMQo6Wv/rvQHU6Uun3d2Bha3ZdueALFvfYUr4kkDjVU0BdjnWg10tset8ADJwZg++gvEI5SImp3PmfgfTb9wkpK3VowVMJvAOWnAW68MnPb3Wp7RuBvOlnIzap/S/qBBVFbQaCzbSZnbwAN1mtYTW2ETTxXVuRtdfeH2UiDSOq71afHqpgT7+wPiierQzzpOSh12DpuIAh0VUhFpx/aAyy8/pCtaW02KwAhE94zfHa6SpJvqN6KoP8EuBKt1rHjd1sluVERkcuF2CAPiugp3NMy2UjlgdfEj+3uL+7U5LVL9LRxqYMFPlc08rLl2HMBVezQYtNQecPkVhhiYdVUcdNInDSqmrra/pB85R84BreIZZf4TtKnxwSD+nTLQ0TvZJuhRmVxKiympNxNqgFHRu3OQy6aUKplX6T9gWsj0X/soAaa1/JTGodazQjIlpcXUaLbUeJgj7bGRqF9eqXpAxfruB/5dgWCwBxMch/BKW/H2+FUQWie1mN4jzW4Jospdf6EKaPanrj7qfT49B4LBHqRFDmisYbbdJAm+lYCzVpeaMJkYDVFzkaii4tVdc+HdhEc6Lq9eyZw3Iwcj1uAGo+mATEnBWToAXihXQHcCuuurXtnwvMYMcFBQMNiDWZ89NGkVYTQdOJYpODsPvs4IzS9s8Vp1uWdDPoNZCZ7r6gCg79+5PqxM0w14Zyk4a8bWSSQrGqjT9letRlFUu/NlN5dSAUHydK5ZJKbpBlXeJuAsNgEtAQEyMxKEajcEKs/1OGD7J0/6dDEOFTBZKTgLHaiWoHZFxoenQQhqLms1+BABzMFk18AG16YCBkak4OywVdaLBJAV7FObGB7WZDyzmcFKAGSOXzS7xHS+AforAWf5TC4nqMiBm2G/zJpNGcFimV9uiwIRMOQ9/6WzPUwPBOh4T8BZUgchBNjo/kjmeC40/zuEU//pDZgt64T68PQURCZuBS8tYdYcpL7aAmdYt+io2Vvz0XwC05VMkbUR6SoOziSgDod4nCXsouCkwKsC2tX35q7xCbP4WoyGMOVoePBdtY1c9TQ4yQk4+yfYSUF92e2X9kg6hmAnMDnszAQCofyb5ayAkx+Ps2fBTAoyCO0Q5IvsHu68pe5sW8VAd4r+BtfjhZz8aJyliu1nUpD2tDi1lfVBaNEMwHPzlf2lRfyh5l3LBJwlvUcCHsH7BR0X3+Hxq4N+8/xj5ex54QV40Jff/CbXIQkYzHicBQUznCDPwXHxCeOS6xe1VeNBcYk+x7kc3pPCN6kAJj8eZ3+6XeNQkPY4SLogl9dXu7J/5D/lIbMVyQQXbGgEhuzUf5lNDYDy83icJRkGofIVsD6ui/+qo9vpz2rI9MnzZfX8dlewoZhZA+W/g5NtpQUxZDTO3vvPMBWgPU5Ybo7wPrKvI/mml8h6ZaeC3vquEQS+A8/kx+OsiaCkWVuoWdEBSU3NlH1ylq9uWzcD23xojtJLB+EJDsDkR+MsGagjTcqDtsfygg1uFwd4s7TcZudufe5szzusBkwaBEx+NM7S2hBB80ApmROXaaqw0iqLCbP0cyYRW54broCTDMie6HHsj8LrMoJsj3PAtHNeNw+T9z2y2AEKZmzE6Ll6AqAfanCIHGl95ovdbYHaYx0wczKqhRP1ceyucQVA7hrfBYXuF+G5umicNWsWB4KiaVh2DSuZVbg31MtbSkna3r5JNIKaeXw5IwrReHsVfcMDcRX8c8sg5+YMJDEY1X9fbxXRAGd+ykZ0BeBtyShEA0uMHWlNh3MIbVyAqXCtKXmS/oi6X65nYT6Ijje8ZwEV6wKGKRZniaMtJUYAY+0S3YivbNk2o42Ib0H3WMD3B347FmdNj5jEQ4a2i8DrA50nmclhKDJ38KJXHoSkiM4VGqYKZdGgYrcVrMKL3Ry23iStcKYJlDlCX4w/zLFXB5gePXGiIgi12kcfOeeOdTO1C3jRKIeDnEy+Nj62K8vQOOKQVsD4tNV7DUHFMlOGlcY/zefy4SYC4xOJs6RrTnLxUR0mw4O0aJC8KDfAuh5oI7mzpbB+B3xIZHzicNb40aLeAZacY2DcBsW+ui9VyhqcZQyyLzbnjgqmwXnjE3lFyyzcxUc5GNbtsljrfPK2qVWKAqqJkL0q/9V+F5gJ441PJM6aHJjo4oPqTWAc19qRzcdVH/uhl8NSNUNY+IfdvrUMCmbCeOMTibPmbYnjP0GBA/rB0x+qGI3HU1U8Vwq9KYqRIoBqICoXLj4ZOUfUc9ckf5rj5nUtw118RETimYOL3cv2eW3Ix8V8RZlIA1HS+9g4TSbYVgH3Mg5nDRUgxtbA2KXfEGpSTSKa3Vj5LU+6jqfdhJPoinn74vgmEJpNU2/6MG5vwGj9O7orHrqV97njriw7E0N3I2B+cPIlbcZ4hqyZGmaPJ8bTbnFzEQ12ypdT8Gmp9CHAxn8PulbGZGF9s8D4QCQOZ02MIpLdgCRPv7/BpBDDJiN8NC/Ql67jyf+o0QthfnYlKBmZevWW2WTIAjjSALNP0dmCA+EOHkeMBsojWnl2Nn20q9Hc0InTdVjji+V5ziIOZ02sJRXqoIkd8veQmE0Oznx/MPl5W/jmknEMzt5EGEX+5/Jk7TF1hxFD7P+oft87+ooPB6PmfJvgSU4A8Kx6xMBOR4yPH5Pkvfp89x5N3iJHzfmOcCnBpqTfaWGW3/kqdCLs9K2o+xRM3BMwtpa1yCm3PNViaJxuV0fawtJ0UcbAkFSjAPx/ZNyiDjfJ6vii863flnwyNjLqPgW9rUFwuWRcgA43FehNib+c3SfLcXtXolapDUrYyMu71q6kjRmqpHHyO93JxMjyvQV+UffWNFxA4PD23s7dleikNZEnVe9ryvAzr3w4y4x8declVk+CCRF3oEgH7en1ssM5H3a8tZiVnT3KIjJknX2q0UQJhQZUTjNKH3TRnr1H/qYKdZl+U4j3T1P2Ovp+sN3VPIoOmT0Sl7GL9hzketfhkiq/3JJlHtMPAvJBitSSbm/4b+ScG/f7ffJsDPn3/1i66Ol1/80yt/VLSBoc8N/JbY0r6cR6lLxWPyfHS39X6hSaVLF2LCmbJfvifYJ/WU4rB0K4DvxoslHTwfg7PIzjys2vQyNNp9uiY2Tx8vXzP8D0zrLb/kgaofxP/sk/iZL/AWTaONeU+cCsAAAAAElFTkSuQmCC"
+            alt="H&M">
+    </div>
+    <div class="topnext1">
+        <ul>
+            <li><a href="#" onmouseenter="Ladies()" onmouseout="Ladiesout()" id="lady">Ladies</a></li>
+            <li><a href="#" onmouseenter="Mens()" onmouseout="Mensout()" id="mens">Men</a></li>
+            <li><a href="#" onmouseenter="Baby()" onmouseout="babyout()" id="baby">Baby</a></li>
+            <li><a href="#" onmouseenter="Kids()" onmouseout="kidsout()" id="kids">Kids</a></li>
+            <li><a href="#" onmouseenter="Divide()" onmouseout="divideout()" id="divide">Divided</a></li>
+            <li><a href="#" onmouseenter="Sale()" onmouseout="saleout()" id="sale">Sale</a></li>
+            <li><a href="#" onmouseenter="Sustainability()" onmouseout="sustainout()" id="sustain">Sustainablity</a>
+            </li>
+        </ul>
+    </div>
+    <div id="top1" onmouseover="stay()" onmouseleave="leave()"></div>
+</div>
+    <div class="search">
+        <a href="#"><i class="fas fa-search"></i></a>
+        <input type="text" placeholder="Search Products">
+    </div>
+
+  <div class="heading">
+    <h1>VIEW ALL</h1>
+  </div>
+
+  <!-- Filter  -->
+  <div class="filter">
+    <select id="sortings" onchange="handleSorting()">
+      <option value="">SORT BY</option>
+      <option value="high">Recommended</option>
+      <option value="low">Newest</option>
+      <option value="low">Lowest Price</option>
+      <option value="high">Highest Price</option>
+    </select>
+
+    <!-- Conscious -->
+    <select id="sortings" onchange="handleSorting()">
+      <option value="">Conscious</option>
+      <option value="high">Conscious</option>
+    </select>
+
+    <!-- Size -->
+
+    <select id="sortings" onchange="handleSorting()">
+      <option value="">Size</option>
+      <option value="high">Womenswear</option>
+      <option value="high">Bras</option>
+      <option value="high">Footwear</option>
+    </select>
+
+    <!-- Colour -->
+
+    <select id="sortings" onchange="handleSorting()">
+      <option value="">COLOUR</option>
+      <option value="high">Black</option>
+      <option value="high">Blues</option>
+      <option value="high">Red</option>
+      <option value="high">Beige</option>
+      <option value="high">Yellow</option>
+      <option value="high">Purple</option>
+      <option value="high">Grey</option>
+    </select>
+
+    <select id="sortings" onchange="handleSorting()">
+      <option value="">PATTERN</option>
+      <option value="high">argly-Patterned</option>
+      <option value="high">block coloured</option>
+      <option value="#">Checked</option>
+      <option value="#">floral</option>
+      <option value="#">leopard-paint</option>
+      <option value="#">paisely-patterned</option>
+      <option value="#">patterned</option>
+      <option value="#">solid colour</option>
+      <option value="#">spotted                   1</option>
+      <option value="#">stripped</option>
+    </select>
+  </div>
+
+  <!-- Left side menu list -->
+
+  <!-- New Arrivals -->
+
+  <div class="leftside">
+    <div class="newArrival">
+      <h4><a href="#">New Arrivals</a></h4>
+      <ul>
+        <li><a href="">View All</a></li>
+        <li><a href="">Clothes</a></li>
+        <li><a href="">Shoes & Accessories</a></li>
+        <li><a href="">Lingerie</a></li>
+      </ul>
+    </div>
+
+    <!-- Trending Now -->
+
+    <div class="newArrival">
+      <h4><a href="#">Trending Now</a></h4>
+      <ul>
+        <li><a href="">Shirts you need now</a></li>
+        <li><a href="">Feel Good Lingerie</a></li>
+        <li><a href="">Sleeveless knits and outdoor</a></li>
+        <li><a href="">Y2K fashion</a></li>
+        <li><a href="">Music, Movies & Logos</a></li>
+      </ul>
+    </div>
+
+    <!-- Deals -->
+
+    <div class="newArrival">
+      <h4><a href="#">Deals</a></h4>
+      <ul>
+        <li><a href="">Socks - Buy 2 get 1 free!</a></li>
+      </ul>
+    </div>
+
+    <!-- Shop by Product -->
+
+    <div class="newArrival">
+      <h4><a href="#">Shop by Product</a></h4>
+      <ul>
+        <li><a href="">View All</a></li>
+        <li><a href="">Tops & T-shirts</a></li>
+        <li><a href="">Basics</a></li>
+        <li><a href="">Shirts & Blouses</a></li>
+        <li><a href="">Cardigans & Sweaters</a></li>
+        <li><a href="">Knitwear</a></li>
+        <li><a href="">Blazers</a></li>
+        <li><a href="">Jackets & Coats</a></li>
+        <li><a href="">Trousers</a></li>
+        <li><a href="">Jeans</a></li>
+        <li><a href="">Shorts</a></li>
+        <li><a href="">Skirts</a></li>
+        <li><a href="">Dresses</a></li>
+        <li><a href="">Jumpsuits</a></li>
+        <li><a href="">Shoes</a></li>
+        <li><a href="">Accessories</a></li>
+        <li><a href="">Swimwear & Beachwear</a></li>
+        <li><a href="">Lingerie</a></li>
+        <li><a href="">Loungewear</a></li>
+        <li><a href="">Nightwear</a></li>
+        <li><a href="">Socks & Tights</a></li>
+        <li><a href="">Sportswear</a></li>
+        <li><a href="">Maternity Wear</a></li>
+        <li><a href="">Plus Sizes</a></li>
+        <li><a href="">Dog clothes & Accessories</a></li>
+        <li><a href="">Sweatshirts & Hoodies</a></li>
+        <li><a href="">Premium Selection</a></li>
+      </ul>
+    </div>
+
+    <!-- Sustainability -->
+
+    <div class="newArrival">
+      <h4><a href="#">Sustainability</a></h4>
+      <ul>
+        <li><a href="">Our products</a></li>
+        <li><a href="">H&M Take Care</a></li>
+        <li><a href="">Learn More</a></li>
+      </ul>
+    </div>
+
+    <!-- Magazine -->
+
+    <div class="newArrival">
+      <h4><a href="#">Magazine</a></h4>
+      <ul>
+        <li><a href="">Magazine</a></li>
+      </ul>
+    </div>
+
+    <!-- Shop by Occasion -->
+
+    <div class="newArrival">
+      <h4><a href="#">Shop by Occasion</a></h4>
+      <ul>
+        <li><a href="">Party Wear</a></li>
+        <li><a href="">Casual Wear</a></li>
+        <li><a href="">Office Wear</a></li>
+        <li><a href="">Loungewear</a></li>
+      </ul>
+    </div>
+    
+  </div>
+  <div id="display"></div>
+  
+  <div class="footer">
+    <div class="details">
+        <div class="first">
+            <h6>SHOP</h6>
+            <ul>
+                <li><a href="#">Ladies</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Baby</a></li>
+                <li><a href="#">Kids</a></li>
+            </ul>
+        </div>
+        <div class="second">
+            <h6>CORPORATE INFO</h6>
+            <ul>
+                <li>Career at H&M</li>
+                <li>About H&M Group</li>
+                <li>Sustainability</li>
+                <li>Press</li>
+                <li>Invester relations</li>
+                <li>Corporate goverance</li>
+            </ul>
+        </div>
+        <div class="third">
+            <h6>HELP</h6>
+            <ul>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">My H&M</a></li>
+                <li><a href="#">Find a Store</a></li>
+                <li><a href="#">Legal & Privacy</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="forth">
+            <p>Signup and newslater</p>
+            <p>Sign up now and be the first to know about exclusive offers, latest fashion news & style tips!</p>
+            <a href="#">SIGN UP &rarr;</a>
+        </div>
+    </div>
+    <div class="icons">
+        <a href="https://www.facebook.com/hm"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://twitter.com/hm"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com/hm/"><i class="fab fa-instagram-square"></i></a>
+        <a href="https://www.youtube.com/user/hennesandmauritz"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.pinterest.com/hm/"><i class="fab fa-pinterest"></i></a>
+    </div>
+    <div class="text">
+        <p>
+            The content of this site is copyright-protected and is the property of
+            H & M Hennes & Mauritz AB. H&M’s business concept is to offer fashion
+            and quality at the best price in a sustainable way. H&M has since it
+            was founded in 1947 grown into one of the world's leading fashion
+            companies.
+        </p>
+    </div>
+    <div class="endlogo">
+        <img src="data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%22323%22%20height%3D%2242%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Ctitle%3E209A409D-4D20-46EE-9778-57304659E282%401.00x%3C%2Ftitle%3E%3Cdefs%3E%3Cpath%20d%3D%22M172.407%201.439c.031%201.497-.19%203.483-.347%204.925-.855%207.82-2.284%2014.21-2.393%2022.24%203.762-9.78%206.92-16.575%2010.982-24.947%201.29-2.663%202.112-2.168%203.173-2.642%204.129-1.844%204.284-.71%203.744%201.542-2.004%208.358-7.125%2034.668-7.908%2038.718-.228%201.173-1.496.676-1.826.218-1.47-2.04-3.126-2.071-2.94-3.428.922-6.756%204.238-23.702%205.102-27.695-4.41%209.072-8.98%2020.412-11.327%2026.842-.497%201.365-1.404%201.266-1.969.266-.794-1.403-2.333-2.12-2.588-3.778-.807-5.273.922-15.323%201.162-21.68-2.4%206.944-6.429%2020.429-8.194%2026.522-.73%202.52-3.152%202.11-2.508-.348%202.682-10.224%208.459-28.307%2010.96-34.81.589-1.527%202.127-1.475%203.406-2.108%202.302-1.14%203.446-.988%203.471.163zm-22.522-.145c1.387-.239%203.644-1.463%204.424-1.274.73.176.671%201.04.225%202.222-1.318%203.486-3.145%208.065-5.234%2013.465%201.314-.15%202.027-.2%202.027-.2%201.884-.235%202.236.711%201.705%201.719-.423.803-.933.268-2.696%202.907-.996%201.488-2.617%201.881-3.519%202.08-2.172%205.77-4.497%2012.208-6.76%2019.07-.328.998-1.289.78-1.578.373-1.062-1.489-1.845-1.537-2.67-2.741-.097-.195-.291-.46-.174-.939.605-2.484%202.212-7.586%204.657-14.304-3.08.67-6.412%201.39-7.787%201.712a614.858%20614.858%200%200%200-4.786%2013.114c-.946%202.693-3.41%202.172-2.545-.372a442.816%20442.816%200%200%201%204.42-12.348c-1.706-.182-2.283-1.392-3.236-2.402-.369-.391-1.172-.336-1.564-.883-.708-.984-.637-1.42.996-1.893a161.61%20161.61%200%200%201%206.425-1.721c2.76-7.149%205.253-13.281%206.582-16.553%201.024-2.522%203.665-2.287%202.662.2-2.039%205.055-4.13%2010.307-6.192%2015.632%202.885-.65%205.467-1.148%207.673-1.527a396.956%20396.956%200%200%201%205.937-14.456c.145-.333.568-.806%201.008-.88zm1.624%2029.78c.169-.163.334-.323.494-.461%201.134-.985%202.215-.008%201.095%201.658-.24.358-.514.742-.812%201.122.141.404.268.754.369%201.012.578%201.49-.94%201.863-1.431.63l-.135-.346c-.923.821-1.991%201.34-3.132.984-1.88-.586-2.356-3.241-.602-5.287a38.362%2038.362%200%200%201%201.675-1.844%2043.18%2043.18%200%200%201-.312-1.062c-.228-.829-.434-1.794.392-2.777%201.547-1.845%205.14-.208%203.323%202.631-.438.684-.95%201.33-1.484%201.985.178.566.369%201.164.56%201.755zM10.519%2021.29H2.147v7.165H0V13.256h2.147v5.971h8.372v-5.97h2.147v15.198h-2.147V21.29zm17.171-2.063v2.063h-4.936v5.102h6.654v2.064h-8.8v-15.2h8.585v2.062h-6.44v3.91h4.937zm10.71-1.932v11.16h-2.146V13.256h1.501l9.017%2011.161v-11.16h2.147v15.198h-1.502L38.4%2017.295zm20.607%200v11.16h-2.146V13.256h1.501l9.015%2011.161v-11.16h2.148v15.198h-1.503l-9.015-11.16zm25.543%201.932v2.063h-4.937v5.102h6.654v2.064h-8.802v-15.2h8.588v2.062h-6.44v3.91h4.937zm8.778%205.429c.88%201.085%202.124%201.954%203.67%201.954%201.396%200%202.62-.912%202.62-2.28%200-2.323-3.178-2.584-5.174-3.91-1.074-.716-1.911-1.758-1.911-3.343%200-2.214%201.932-4.038%204.55-4.038%201.912%200%203.242.847%204.038%201.52l-1.267%201.585c-.816-.695-1.74-1.042-2.683-1.042-1.246%200-2.49.716-2.49%202.04%200%201.933%203.197%202.345%205.13%203.649%201.009.673%201.953%201.736%201.953%203.474%200%202.67-2.04%204.407-4.657%204.407-2.062%200-3.93-.912-5.26-2.54l1.481-1.476zm124.56.542h-1.502l-4.4-6.97v10.227h-2.147V13.256h1.503l5.795%209.271%205.796-9.27h1.502v15.198h-2.147V18.228l-4.4%206.97zm31.98-3.04v-8.902h2.147v9.01c0%201.434.344%202.324.945%202.997.752.847%201.868%201.347%203.134%201.347%201.267%200%202.383-.5%203.134-1.347.601-.673.945-1.563.945-2.997v-9.01h2.147v8.903c0%202.04-.601%203.452-1.567%204.516-1.138%201.237-2.813%201.997-4.659%201.997-1.846%200-3.52-.76-4.659-1.997-.965-1.064-1.566-2.475-1.566-4.516zm-9.184%202.389h-6.334l-1.567%203.909h-2.232l6.225-15.2h1.503l6.226%2015.2h-2.234l-1.587-3.91zm-5.475-2.063h4.637l-2.318-5.646-2.319%205.646zm52.631%205.97V13.257h2.147v15.199h-2.147zm8.457-15.198H306.6v2.063h-4.078v13.136h-2.146V15.319h-4.08v-2.063zm16.184%200h10.089v1.411l-7.813%2011.725H323v2.063h-11.162v-1.411l7.856-11.725h-7.213v-2.063zm-40.288%208.034v7.166h-2.147v-15.2h5.26c1.374%200%202.232.325%202.918.89a4.032%204.032%200%200%201%201.481%203.127c0%201.26-.577%202.389-1.48%203.127a3.588%203.588%200%200%201-1.76.803l5.387%207.253h-2.597l-5.345-7.166h-1.717zm3.006-2.063c.966%200%201.458-.217%201.803-.564.343-.348.557-.848.557-1.39%200-.542-.214-1.043-.557-1.39-.345-.348-.837-.565-1.803-.565h-3.006v3.91h3.006zm-125.924%2012.21c-.924%201.274-.377%201.727.31%201.306.217-.133.432-.296.646-.474-.164-.48-.326-.97-.481-1.45-.16.205-.32.405-.475.619zm1.047-4.2c.16-.167.32-.337.491-.532%201.144-1.295-1.117-1.838-.596.145.028.11.065.244.105.386z%22%20id%3D%22prefix__a%22%2F%3E%3C%2Fdefs%3E%3Cuse%20fill%3D%22%23222%22%20xlink%3Ahref%3D%22%23prefix__a%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E"
+            alt="" />
+        <p>INDIA | Rs.</p>
+    </div>
+  
+    
+    <!-- <script src="./header.js"></script>   -->
+    <script>
+    
+    let div = document.getElementById("display");
+
+    async function fetchProductDetails() {
+      let response = await fetch("./product.json");
+
+      let allproducts = await response.json();
+
+      console.log(allproducts);
+
+      let data = allproducts.clothing;
+      showProduct(data);
+    }
+    fetchProductDetails();
+
+    function showProduct(data) {
+      data.forEach(function (item) {
+        // console.log(item);
+
+        let divison = document.createElement("div");
+        // heading.textContent = item.title
+        // heading.setAttribute('class','item-heading')
+        let img = document.createElement("img");
+        img.src = item.imageA;
+        img.setAttribute("class", "productImage");
+        img.addEventListener("mouseover", function addEffect() {
+          img.src = item.imageB;
+        });
+        img.addEventListener("mouseleave", function () {
+          img.src = item.imageA;
+        });
+
+        let anchor = document.createElement("p");
+        anchor.setAttribute("class", "product_item_title");
+        anchor.addEventListener("click", function () {
+          //console.log(item.id);
+          console.log(item.id);
+          localStorage.setItem("sibleProduct", JSON.stringify(item.id));
+          window.location.assign("./cateloge.html");
+        });
+        anchor.textContent = item.title;
+
+        let p = document.createElement("p");
+        p.textContent = `Price ${item.price}`;
+
+        let newarrival = document.createElement("newarrival");
+        newarrival.setAttribute("class", "newarrival");
+        newarrival.textContent = ` ${item.fashionChoice}`;
+
+        divison.append(img, anchor, p, newarrival);
+
+        div.append(divison);
+      });
+    }
+
+    async function handleSorting() {
+      let val = document.getElementById("sortings").value;
+      div.innerHTML = null;
+      let response = await fetch("./product.json");
+
+      let allproducts = await response.json();
+
+      console.log(allproducts);
+
+      let data = allproducts.clothing;
+
+      if (val == "low") {
+        data.sort(function (a, b) {
+          return a.price - b.price;
+        });
+        showProduct(data);
+      } else if (val == "high") {
+        data.sort(function (a, b) {
+          return b.price - a.price;
+        });
+
+        showProduct(data);
+      } else {
+        showProduct(data);
+      }
+    }
+
+
+  </script>
+</body>
+
+</html>
