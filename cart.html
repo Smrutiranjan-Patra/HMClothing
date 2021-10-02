@@ -1513,7 +1513,7 @@
   c = 0;
   for (i = 0; i < cart.length; i++) {
     n = Number(cart[i].price);
-    c += n
+    c += Math.ceil(n)
   }
   document.getElementById("ordervalue").textContent = "Rs." + c;
 
@@ -1551,28 +1551,6 @@
 
   }
 
-   let parents = document.getElementById("products");
-
-  let cart = JSON.parse(localStorage.getItem("cartItems"));
-    console.log(cart);
-
-    
-     cart.forEach((product) => {
-      let div = document.createElement("div");
-      let img = document.createElement("img");
-      img.src = product.img;
-      let prod_price = document.createElement("p");
-      prod_price.textContent = product.price;
-      let prod_name = document.createElement("p");
-      prod_name.textContent = product.name;
-
-      let addtocart_btn = document.createElement("button");
-      addtocart_btn.innerText = "Add to Cart";
-
-
-      div.append(img, prod_name, prod_price, addtocart_btn);
-
-      parents.append(div);
-    });
+  
 
 </script>
