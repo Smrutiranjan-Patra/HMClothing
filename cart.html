@@ -258,6 +258,11 @@
     color: white;
     text-decoration: none;
   }
+  .product_image{
+    width:90px;
+  }
+  
+  
 </style>
 
 <body id="head">
@@ -357,10 +362,10 @@
           <p>Total</p>
         </div>
         <div class="c32">
-          <p id="ordervalue">Rs.0</p>
-          <p id="delivery">Rs.148</p>
+          <p id="ordervalue" style ="color:red">Rs.0</p>
+          <p id="delivery" style ="color:red">Rs.148</p>
           <p>_____________</p>
-          <p id="total">Rs.0</p>
+          <p id="total" style ="color:blue">Rs.0</p>
 
         </div>
       </div>
@@ -1491,29 +1496,59 @@
 
   cart.forEach((product) => {
     let div = document.createElement("div");
+    console.log(product);
+    div.style.margin = "15px";
+    div.style.display = "flex";
+
+    let a1 = document.createElement("select");
+    a1.style.height ="20px";
+    a1.style.width = "20px";
+    a1.style.margin= "30px";
+    
+  
+  
     let img = document.createElement("img");
-    img.src = product.img;
+    img.src = product.imageA;
+    img.style.height = "100px";
+    img.style.padding ="20px";
+    img.setAttribute('class','product_image')
+
     let prod_price = document.createElement("p");
-    prod_price.textContent = product.price;
+    prod_price.textContent = "price"+" "+product.price;
+    prod_price.style.color = "red";
+    prod_price.style.padding ="20px";
+
     let prod_name = document.createElement("p");
-    prod_name.textContent = product.name;
-
+    prod_name.textContent = "Italianstyle";
+    prod_name.style.padding = "20px";
+    prod_name.style.color = "blue";
+    
     let addtocart_btn = document.createElement("button");
-    addtocart_btn.innerText = "Add to Cart";
-
+   
+    addtocart_btn.innerText =""
+    addtocart_btn.style.margin ="30px";
+    addtocart_btn.style.height = "20px";
+    addtocart_btn.style.width = "20px";
+    
     addtocart_btn.onclick = function () {
-      addtocart(product);
+      addtocart();
     };
 
-    div.append(img, prod_name, prod_price, addtocart_btn);
+    div.append(img, prod_name, prod_price,a1, addtocart_btn);
 
     parents.append(div);
+
+
+
   });
+  function addtocart_btn(){
+    remove(div)
+   }
 
   c = 0;
   for (i = 0; i < cart.length; i++) {
     n = Number(cart[i].price);
-    c += Math.ceil(n)
+    c += Math.ceil(n) * 70;
   }
   document.getElementById("ordervalue").textContent = "Rs." + c;
 
@@ -1527,7 +1562,7 @@
 
   function add() {
     var a = document.getElementById("coupon").value;
-    var b = "ABC";
+    var b = "masai30";
     var succ = document.getElementById("succ");
     succ.width = "300px";
 
@@ -1550,7 +1585,7 @@
 
 
   }
-
+ 
   
 
 </script>
