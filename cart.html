@@ -278,10 +278,6 @@
     <div class="rightbox">
       <ul>
         <li>
-          <i class="far fa-user"></i>
-          <a href="#">Sign in</a>
-        </li>
-        <li>
           <i class="far fa-heart"></i>
           <a href="#">Favorite</a>
         </li>
@@ -344,7 +340,7 @@
 
     <div class="paymentoption">
 
-      <label style="padding:10px">ADD A DISCOUNT CODE</label>
+      <label style="padding:10px" >ADD A DISCOUNT CODE</label>
       <div id="c1">
         <input id="coupon" text="code" style="width:180px;height:35px" />
         <button onclick="add()">ADD</button>
@@ -1509,12 +1505,12 @@
   
     let img = document.createElement("img");
     img.src = product.imageA;
-    img.style.height = "100px";
+    img.style.height = "118px";
     img.style.padding ="20px";
-    img.setAttribute('class','product_image')
+    img.setAttribute('class','product_image');
 
     let prod_price = document.createElement("p");
-    prod_price.textContent = "price"+" "+product.price;
+    prod_price.textContent = "$"+" "+product.price;
     prod_price.style.color = "red";
     prod_price.style.padding ="20px";
 
