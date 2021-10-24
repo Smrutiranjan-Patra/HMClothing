@@ -190,10 +190,10 @@
       <form id="myform">
         <label class="lab">Email<mark class="star">*</mark></label
         ><br />
-        <input type="text" id="email" class="inp" /><br />
+        <input type="text" id="email" class="inp" placeholder="Enter valid email" /><br />
         <label class="lab">Create a password<mark class="star">*</mark></label
         ><br />
-        <input type="password" id="password" class="inp" />
+        <input type="password" id="password" class="inp"  placeholder="Create strong password"/>
         <br />
         <label class="lab">Date of birth<mark class="star">*</mark></label
         ><br />
@@ -292,6 +292,7 @@
       var input1 = document.createElement("input");
       input1.className = "inp";
       input1.type = "text";
+      input1.placeholder="Enter fIrst name"
 
       input1.id = "FN";
 
@@ -302,6 +303,8 @@
       var input2 = document.createElement("input");
       input2.className = "inp";
       input2.type = "text";
+      
+      input2.placeholder="Enter last name"
 
       input2.id = "LN";
 
@@ -329,6 +332,7 @@
       var input3 = document.createElement("input");
       input3.className = "inp";
       input3.id = "pincode";
+      input3.placeholder="Area pin code"
 
       gen_drop.append(opt1, opt2, opt3);
 
