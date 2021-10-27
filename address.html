@@ -233,7 +233,7 @@
       let arr = JSON.parse(localStorage.getItem("userAddress"));
       //push new user to array
       arr.push(address); // added a new user
-      //console.log(arr);
+
       arr = JSON.stringify(arr);
       localStorage.setItem("userAddress", arr);
 
