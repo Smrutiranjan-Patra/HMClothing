@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Signup</title>
+    <link
+      href="https://s1-cdn.hm.com/global/fonts/4.0.12/hm/css/fonts_en_in.css"
+    />
+    <link rel="icon" href="/Product/img/favicon.ico" type="image/png" />
+    <style>
+      body {
+        @font-face {
+          background-color: #faf9f8;
+          font-family: "HM Sans Regular", "ヒラギノ角ゴ Pro W3",
+            "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo,
+            "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+          font-weight: 400;
+          background-color: #faf9f8;
+        }
+      }
+      #block {
+        width: 39%;
+        height: 80px;
+        background-color: rgb(250, 249, 248);
+        margin: auto;
+        margin-bottom: 0px;
+      }
+      #parent {
+        width: 39%;
+        height: 1000px;
+        background-color: rgb(250, 249, 248);
+        margin: auto;
+        margin-top: 0px;
+      }
+      #member {
+        font-weight: 600;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 15px;
+      }
+      #para {
+        text-align: center;
+        margin-top: 0px;
+        font-weight: lighter;
+        color: grey;
+      }
+      .inp {
+        margin-left: 50px;
+        width: 80%;
+        height: 50px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        border: 1px solid rgb(208, 208, 208);
+        font-size: 16px;
+        padding: 5px;
+      }
+
+      .lab {
+        margin-left: 50px;
+        margin-bottom: 5px;
+        color: rgb(97, 96, 96);
+        font-weight: 600;
+      }
+
+      #treat {
+        margin-left: 50px;
+        margin-top: 0px;
+        font-size: 13px;
+        color: grey;
+      }
+      #date {
+        margin-bottom: 0px;
+      }
+      #dropdown {
+        width: 77%;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+        margin-left: 50px;
+        margin-top: 10px;
+        padding: 10px;
+        cursor: pointer;
+        margin-bottom: 0px;
+        float: left;
+      }
+      #plus {
+        float: right;
+        margin-top: -40px;
+        margin-right: 10px;
+      }
+      #text {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+      #plus_img {
+        width: 20px;
+        height: 20px;
+        float: right;
+        margin-right: 10px;
+      }
+      #drop {
+        width: 80%;
+        height: 0px;
+        margin-left: 50px;
+        background-color: rgb(250, 249, 248);
+        align-items: center;
+      }
+      #para1 {
+        margin-left: 50px;
+        width: 78%;
+        float: left;
+        margin-bottom: 10px;
+      }
+      #name {
+        margin-left: 10px;
+      }
+      #minus_img {
+        width: 20px;
+        margin-left: 35px;
+        margin-top: 20px;
+        cursor: pointer;
+        height: 20px;
+      }
+      #check {
+        margin-top: 0px;
+        width: 80%;
+        margin-left: 50px;
+      }
+      #para3 {
+        margin-top: -21px;
+        text-align: left;
+        margin-left: 22px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        color: gray;
+      }
+      #c_box {
+        width: 15px;
+        height: 15px;
+        margin-top: 15px;
+      }
+      #para4 {
+        text-align: left;
+        width: 70%;
+        margin-left: 70px;
+        margin-top: 20px;
+      }
+      #para5 {
+        width: 82%;
+        margin-left: 55px;
+        font-size: 15px;
+        color: grey;
+      }
+      #butt {
+        margin-left: 50px;
+        width: 80%;
+        height: 50px;
+        background-color: black;
+        color: white;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+      #anch {
+        margin-left: 296px;
+        margin-top: 12px;
+        color: rgb(61, 50, 50);
+      }
+      #anc {
+        color: black;
+        font-size: 16px;
+      }
+      .star {
+        color: red;
+        background-color: rgb(250, 249, 248);
+      }
+      .under {
+        text-decoration: underline;
+        background-color: rgb(250, 249, 248);
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="block"></div>
+    <div id="parent">
+      <h2 id="member">BECOME A MEMBER</h2>
+      <p id="para">
+        Become a member — don’t miss out on deals, offers, discounts<br />
+        and bonus vouchers.
+      </p>
+
+      <form id="myform">
+        <label class="lab">Email<mark class="star">*</mark></label
+        ><br />
+        <input type="text" id="email" class="inp" placeholder="Enter valid email" /><br />
+        <label class="lab">Create a password<mark class="star">*</mark></label
+        ><br />
+        <input type="password" id="password" class="inp"  placeholder="Create strong password"/>
+        <br />
+        <label class="lab">Date of birth<mark class="star">*</mark></label
+        ><br />
+        <input
+          type="text"
+          placeholder="DD/MM/YYYY"
+          id="date"
+          class="inp"
+        /><br />
+        <span id="treat"
+          >H&M wants to give you special treat on your birthday</span
+        >
+      </form>
+      <div id="dropdown">
+        <h3 id="text">ADD MORE & GET MORE</h3>
+        <div id="plus">
+          <img
+            onclick="dropdown()"
+            id="plus_img"
+            src="https://cdn-icons-png.flaticon.com/512/747/747361.png"
+          />
+        </div>
+      </div>
+      <div id="drop"></div>
+      <div id="check">
+        <input type="checkbox" id="c_box" />
+        <p id="para3">
+          Yes,email me offers,styles,updates and special invites<br />
+          to sales and events
+        </p>
+      </div>
+      <div id="para4">
+        Wish your inbox was more stylish? No problem, just subscribe to our
+        newsletter. Find out what's hot and happening in the world of fashion,
+        beauty, and home decor. Plus, you'll get bonus vouchers, birthday
+        offers, and special invites to sales and events – straight to your
+        inbox!
+      </div>
+      <div id="para5">
+        <p>
+          By clicking ‘Become a member’, I agree to the H&M Membership
+          <mark class="under">Terms and conditions</mark>
+        </p>
+        <p>
+          To give you the full membership experience, we will process your
+          personal data in accordance with the H&M''s
+          <mark class="under">Privacy Notice.</mark>
+        </p>
+      </div>
+      <div id="sub">
+        <button
+          id="butt"
+          onclick="submit()"
+          onmouseover="fade()"
+          onmouseout="fadeover()"
+        >
+          BECOME A MEMBER
+        </button>
+      </div>
+      <div id="anch">
+        <a href="./sign In.html"><p id="anc">Back to sign in</p></a>
+      </div>
+    </div>
+  </body>
+  <script>
+    function dropdown() {
+      var plus = document.getElementById("plus");
+      plus.innerHTML = null;
+      var parent = document.getElementById("parent");
+      parent.style.height = "1500px";
+      var plus = document.getElementById("plus_img");
+      var text = document.getElementById("text");
+      text.style.color = "red";
+      var div = document.getElementById("drop");
+      div.style.backgroundColor = "white";
+      div.style.height = "600px";
+
+      var para = document.createElement("p");
+      para.id = "para1";
+      para.textContent =
+        "Did you know that if you add some more information below you will earn more points and get a more personalized experience?How great is that? ";
+      var minus_img = document.createElement("img");
+      minus_img.src = "https://cdn-icons-png.flaticon.com/128/860/860821.png";
+      minus_img.id = "minus_img";
+      minus_img.style.backgroundColor = "red";
+      minus_img.style.height = "3px";
+
+      minus_img.onclick = function () {
+        removediv();
+      };
+      var form = document.createElement("form");
+      var label1 = document.createElement("label");
+      label1.className = "lab";
+      label1.textContent = "First Name";
+
+      var input1 = document.createElement("input");
+      input1.className = "inp";
+      input1.type = "text";
+      input1.placeholder="Enter fIrst name"
+
+      input1.id = "FN";
+
+      var label2 = document.createElement("label");
+      label2.className = "lab";
+      label2.textContent = "Last Name";
+
+      var input2 = document.createElement("input");
+      input2.className = "inp";
+      input2.type = "text";
+      
+      input2.placeholder="Enter last name"
+
+      input2.id = "LN";
+
+      var label3 = document.createElement("label");
+      label3.className = "lab";
+      label3.textContent = "Gender";
+
+      var gen_drop = document.createElement("select");
+      gen_drop.className = "inp";
+      gen_drop.id = "gen";
+
+      var opt1 = document.createElement("option");
+      opt1.textContent = "Select a gender";
+
+      var opt2 = document.createElement("option");
+      opt2.textContent = "Male";
+
+      var opt3 = document.createElement("option");
+      opt3.textContent = "Female";
+
+      var label4 = document.createElement("label");
+      label4.className = "lab";
+      label4.textContent = "Pin Code";
+
+      var input3 = document.createElement("input");
+      input3.className = "inp";
+      input3.id = "pincode";
+      input3.placeholder="Area pin code"
+
+      gen_drop.append(opt1, opt2, opt3);
+
+      form.append(label1, input1, label2, input2, label3);
+
+      div.append(para, minus_img, form, gen_drop, label4, input3);
+    }
+
+    function removeallchild(parent) {
+      while (parent.firstChild) {
+        parent.removeChild(parent.firstChild);
+      }
+    }
+    function removediv() {
+      const container = document.querySelector("#drop");
+      removeallchild(container);
+
+      var text = document.getElementById("text");
+      text.style.color = "black";
+
+      var div = document.getElementById("drop");
+      div.style.backgroundColor = "rgb(250, 249, 248)";
+      div.style.height = "0px";
+
+      var parent = document.getElementById("parent");
+      parent.style.height = "1000px";
+
+      var plus = document.getElementById("plus");
+
+      var img = document.createElement("img");
+      img.src = "https://cdn-icons-png.flaticon.com/512/747/747361.png";
+      img.id = "plus_img";
+      img.onclick = function () {
+        dropdown();
+      };
+
+      plus.append(img);
+    }
+
+    function fade() {
+      var but = document.getElementById("butt");
+      but.style.opacity = "0.6";
+    }
+
+    function fadeover() {
+      var but = document.getElementById("butt");
+      but.style.opacity = "1";
+    }
+
+    if (localStorage.getItem("normaldetails") === null) {
+      localStorage.setItem("normaldetails", JSON.stringify([]));
+    }
+    if (localStorage.getItem("advancedetails") === null) {
+      localStorage.setItem("advancedetails", JSON.stringify([]));
+    }
+
+    function submit() {
+      var email = document.getElementById("email").value;
+
+      document.getElementById("email").value = "";
+      var password = document.getElementById("password").value;
+      document.getElementById("password").value = "";
+      var DOB = document.getElementById("date").value;
+      document.getElementById("date").value = "";
+      var norm_data = {
+        email: email,
+        password: password,
+        Date_of_birth: DOB,
+      };
+      if (email != "" && password != "" && DOB != "") {
+        window.location.href = "./sign In.html";
+      } else {
+        alert("PLEASE ADD  Email,password,Date-of-birth");
+      }
+      let arr = JSON.parse(localStorage.getItem("normaldetails"));
+      //push new user to array
+      arr.push(norm_data); // added a new user
+      //console.log(arr);
+      arr = JSON.stringify(arr);
+      localStorage.setItem("normaldetails", arr);
+      var FN = document.getElementById("FN").value;
+      document.getElementById("FN").value = "";
+      var LN = document.getElementById("LN").value;
+      document.getElementById("LN").value = "";
+      var gen = document.getElementById("gen").value;
+      document.getElementById("gen").value = "";
+      var pincode = document.getElementById("pincode").value;
+      document.getElementById("pincode").value = "";
+
+      var adv_data = {
+        First_name: FN,
+        Last_name: LN,
+        Gender: gen,
+        pincode: pincode,
+      };
+      let arr1 = JSON.parse(localStorage.getItem("advancedetails"));
+      //push new user to array
+      arr1.push(adv_data); // added a new user
+      //console.log(arr);
+      arr1 = JSON.stringify(arr1);
+      localStorage.setItem("advancedetails", arr1);
+
+      window.location.href = "./sign In.html";
+    }
+  </script>
+</html>

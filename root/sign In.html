@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign in</title>
+    <link rel="icon" href="/Product/img/favicon.ico" type="image/png" />
+    <style>
+        body {
+            margin: 10px auto;
+        }
+
+        #block {
+            width: 39%;
+            height: 70px;
+            background-color: rgb(250, 249, 248);
+            margin: 106px auto;
+            margin-bottom: 0px;
+        }
+
+        #parent {
+            width: 39%;
+            height: 600px;
+            background-color: rgb(250, 249, 248);
+            margin: auto;
+            margin-top: 0px;
+        }
+
+        #heading {
+            text-align: center;
+            margin-top: 0px;
+        }
+
+        #para1 {
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .lab {
+            margin-left: 60px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            color: rgb(82, 45, 45);
+        }
+
+        .inp {
+            margin-left: 60px;
+            width: 75%;
+            height: 50px;
+            margin-bottom: 5px;
+            margin-top: 8px;
+            margin-right: 10px;
+            border: 1px solid rgb(208, 208, 208);
+            font-size: 16px;
+            padding: 5px;
+        }
+
+        #checkbox {
+            float: left;
+            margin-left: 60px;
+            margin-top: 30px;
+            margin-right: 8px;
+        }
+
+        #text {
+            margin-top: 25px;
+            float: left;
+            color: rgb(97, 96, 96);
+        }
+
+        #FP {
+            margin-top: 25px;
+            float: right;
+            margin-right: 93px;
+            cursor: pointer;
+            color: rgb(97, 96, 96);
+        }
+
+        #butt {
+            margin-left: 55px;
+            width: 78%;
+            height: 50px;
+            background-color: rgb(34, 34, 34);
+            color: white;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        #butt2 {
+            margin-left: 55px;
+            width: 78%;
+            height: 50px;
+            background-color: white;
+            color: black;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        #text1 {
+            text-align: center;
+            color: rgb(97, 96, 96);
+            cursor: pointer;
+            margin-left: -46px;
+            margin-top: 31px;
+        }
+
+        .star {
+            background-color: white;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="block"></div>
+    <div id="parent">
+        <h2 id="heading">Sign in</h2>
+        <p id="para1">
+            Become a member — don’t miss out on deals, offers, discounts<br />
+            and bonus vouchers.
+        </p>
+        <form id="myform">
+            <label class="lab">Email<mark class="star">*</mark></label>
+            <input type="text" id="email" class="inp" />
+            <label class="lab">Password<mark class="star">*</mark></label>
+            <input type="password" id="password" class="inp" />
+        </form>
+        <input type="checkbox" id="checkbox" />
+        <p id="text">Remember me</p>
+        <p id="FP" onmouseover="underline()" onmouseout="rmund()">
+            Forgot Password?
+        </p>
+        <button id="butt" onmouseover="fade()" onmouseout="fadeover()" onclick="submit()">
+            SIGN IN
+        </button>
+        <button id="butt2" onmouseover="fade1()" onmouseout="fadeover1()" onclick="member()">
+            BECOME A MEMBER
+        </button>
+        <p id="text1" onmouseover="underline1()" onmouseout="rmund1()">
+            Membership info
+        </p>
+    </div>
+</body>
+<script>
+    function underline() {
+        var FP = document.getElementById("FP");
+        FP.style.textDecoration = "underline";
+    }
+    function rmund() {
+        var FP = document.getElementById("FP");
+        FP.style.textDecoration = "";
+    }
+
+    function fade() {
+        var but = document.getElementById("butt");
+        but.style.opacity = "0.6";
+    }
+
+    function fadeover() {
+        var but = document.getElementById("butt");
+        but.style.opacity = "1";
+    }
+
+    function fade1() {
+        var but2 = document.getElementById("butt2");
+        but2.style.color = "rgb(97, 96, 96)";
+    }
+    function fadeover1() {
+        var but2 = document.getElementById("butt2");
+        but2.style.color = "black";
+    }
+    function underline1() {
+        var text = document.getElementById("text1");
+        text.style.textDecoration = "underline";
+    }
+    function remund1() {
+        var text = document.getElementById("text1");
+        text.style.textDecoration = "";
+    }
+
+    function submit() {
+        let myform = document.getElementById("myform");
+
+        let email = myform.email.value;
+        myform.email.value = "";
+
+        let password = myform.password.value;
+        myform.password.value = "";
+
+        // grab and prepare user data
+
+        let all_members = JSON.parse(localStorage.getItem("normaldetails"));
+        let user_not_found;
+        all_members.forEach((user) => {
+            if (email === user.email && password === user.password) {
+                window.location.href = "index.html";
+                user_not_found = false;
+            } else {
+                user_not_found = true;
+            }
+        });
+        if (user_not_found) {
+            window.location.href = "signup.html";
+        }
+    }
+    function member() {
+        window.location.href = "signup.html";
+    }
+</script>
+
+</html>

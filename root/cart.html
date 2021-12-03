@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/427e31584d.js" crossorigin="anonymous"></script>
+  <title>Cart.page</title>
+</head>
+<style>
+  #head {
+    background-color: whitesmoke;
+  }
+
+  .leftbox {
+    display: inline-block;
+  }
+
+  .leftbox ul {
+    display: flex;
+  }
+
+  .leftbox ul li:nth-child(1) {
+    margin-left: -20px;
+  }
+
+  .leftbox ul li {
+    list-style-type: none;
+    margin: 0 8px;
+  }
+
+  .leftbox ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+
+  #nav {
+    width: 100%;
+    height: 151px;
+  }
+
+  .rightbox {
+    width: 21%;
+    height: 22%;
+    margin-left: 85%;
+    position: relative;
+    top: -25%;
+    right: 6%;
+  }
+
+  .rightbox ul {
+    display: flex;
+  }
+
+  .rightbox ul li {
+    list-style-type: none;
+    margin: -3% 7% 0 0;
+  }
+
+  .rightbox ul li:nth-child(1) {
+    margin-left: 8%;
+  }
+
+  .rightbox ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .logo {
+    height: 25%;
+    width: 3%;
+    margin: -54px auto 20px;
+  }
+
+  .logo img {
+    height: 100%;
+  }
+
+  .topnext1 {
+    height: 41%;
+    width: 50%;
+    margin: 0% auto;
+    text-align: center;
+    background-color: whitesmoke;
+  }
+
+  .topnext1 ul {
+    display: flex;
+  }
+
+  .topnext1 ul li:nth-child(1) {
+    margin-left: 22%;
+  }
+
+  .topnext1 li {
+    list-style-type: none;
+    margin: 1% 2%;
+  }
+
+  .topnext1 li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  #top1 {
+    display: flex;
+    /* border:1px solid red; */
+    margin: auto;
+    position: relative;
+    background-color: whitesmoke;
+  }
+
+  #top1 ul li {
+    list-style-type: none;
+    cursor: pointer;
+  }
+
+  .search {
+    height: 11.8%;
+    width: 5%;
+    padding: 10px 14px 8px 19px;
+    border-bottom: 1px solid;
+    margin: -3% 0 0px 86%;
+  }
+
+  .box {
+    width: 52%;
+    height: 21%;
+    padding: 2px 1.2%;
+    margin: 1% 23%;
+  }
+
+  .search a i {
+    height: 19px;
+    margin-left: -16px;
+    margin-top: -4px;
+    color: black;
+  }
+
+  .search input {
+    margin-top: -0.1%;
+    height: 2.5%;
+    width: 7%;
+    position: absolute;
+    margin-left: 0.5%;
+    border: 0px;
+    background-color: whitesmoke;
+  }
+
+  .box ul {
+    display: flex;
+  }
+
+  .box ul li {
+    list-style-type: none;
+    margin: 0% 4%;
+  }
+
+  .box ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #centermain {
+    width: 1000px;
+    display: flex;
+    margin: auto;
+  }
+
+  #centermain #products {
+    width: 700px;
+    /* border:1px solid black; */
+
+  }
+
+  .paymentoption {
+    background-color: white;
+  }
+
+  #centermain .paymentoption {
+    width: 300px;
+    /* border:1px solid black; */
+
+  }
+
+  #c1 {
+    margin: 10px;
+  }
+
+  #c1 button {
+    width: 70px;
+    height: 40px;
+  }
+
+  #c2 {
+    margin: 20px
+  }
+
+  #c2 button {
+    width: 250px;
+    height: 40px;
+  }
+
+  #c3 {
+    display: flex;
+    padding: 10px;
+
+  }
+
+  .c31 {
+    width: 200px;
+  }
+
+  #c4 button {
+    width: 250px;
+    height: 40px;
+    margin: 20px;
+    color: white;
+    background-color: black;
+  }
+
+  #c5 {
+    display: flex;
+    margin: 10px;
+  }
+
+  #top1 {
+    display: flex;
+    /* border:1px solid red; */
+    margin: auto;
+
+  }
+
+  #top1 ul li {
+    list-style-type: none;
+    cursor: pointer;
+
+  }
+
+  #succ {
+    text-align: center;
+  }
+
+  #top1 ul :hover {
+    color: #EE1D51;
+  }
+
+  #check {
+    color: white;
+    text-decoration: none;
+  }
+  .product_image{
+    width:90px;
+  }
+  
+  
+</style>
+
+<body id="head">
+
+  <div id="nav">
+    <div class="leftbox">
+      <ul>
+        <li><a href="#">Customer Service</a></li>
+        <li><a href="#">Newsletter</a></li>
+        <li><a href="#">Find a store</a></li>
+      </ul>
+    </div>
+    <div class="rightbox">
+      <ul>
+        <li>
+          <i class="far fa-heart"></i>
+          <a href="#">Favorite</a>
+        </li>
+        <li>
+          <i class="fas fa-shopping-bag"></i>
+          <a href="#">Shopping bag</a>
+        </li>
+      </ul>
+    </div>
+    <div class="logo">
+      <img
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARQAAAC3CAMAAADkUVG/AAAAk1BMVEX////gACbeAADgACTgACLfABvgAB/fABLfABffABnfAA7fABHfAAn75+n//P386uzoaXTxp63+9/j2yc3kPE3umJ/41NfnX2v98PHti5PwoKf64uT52dzmUF73ztL1wcXztrvlSFfysbbrgInqeYPuk5vmV2T0vcLrf4jhGzTjMkXqc33iIjnoZ3LhEC3nXGnkP1CxUBCUAAAVYElEQVR4nO1daXPbug61KG+xFSd2lnrJHidutrb//9c9WwsJUjgESTm382aKT3du7ZiiiAPgYGGv90/+yT/5/5TZxdV2dfa3V1HJ2c3N317CXhZPr0qNxiO1+dsr6W2ubtVBVsf9s9f3kft88aWKYXaQ8Xn3n19crFdXF2nfPXt5U6Nhvl9Jrp66L0XLS6EK9Rj++ZvVQA3yrJLhe8dfX64vlZruj1zKH7q/VaN+1iwl4hkEOfs1OTxgsQ37+On6U42bHTms5LLTr9+9qml15LIi9vgv1n01NCvJ8mGnpRA5rdUgV/Jnl/erTzXtZ1ROuqjP7p08Vf8t5qvX61t3Kfm4w1KozLJmVWopfHTxQxVjexl7ma5Tf/rsKlP0z4W8lmYpq/EeSNyl9LtqciPn4+ZPSpuyzMbuKsqvpVmf0z2SjJwdDt6UnRrlzFIGP5KW0pIbpd9TIXz0fcDtSdyZr2U2f9dIkrApa8VtSZaNXhLWwsitXpq0zU+KX8hV/I+u1KS9I/vXMgn7+gO/kj1S38evhZFT8/fVzv/RzxaaVF+L9mg32YR/0XkeuGb+6wGoGCYrDRP51P/JC/71xLsGN4rf3b0mfgb9gXfulJXf/xW7Fl7MOxsLTsIrv5TiIfIXZydoTwI9njVSnuzkI3ItvDwU+i+qU+8nT/mlRFjRWp5H6Jmy4W3A9xdQebLJcbz8S/36JTV4Zs1xNv4Z+Ysz/EzZIMQNXOFNPU5ougmGWfQsKjZef5rAZwraYc9BOZI/uzUwe+L/5Jp/lngX8hKhZBbmZngOynFcN/L6JZj9xaPjZB75kxuIkmF/zXNQOsQbVMhRFrwNYI9ztYj8yRUPTZUUgqe0lxd8UDJ1HbkYVow7JuH+LX/og5DRkj60x4enupO+7oPpTM1iV8PINYFZv3+MDr38FI6AE9f8OdF6XE3xtzvyOrV8nDR/ry+QMz/5Qx/vQZqfZDdFVEYQH5Qyfo5dDSMEswTYR4c2Phb0nf4ARxDYwEoCEEkW8gtCIDUHa4mOv4gDzYgc+pz49jQ+MmXkzcDsq/+TwB5LX2sLwOvm70le/ty3p/kgdjWM3BGY9ScXEDoK6NyWpRdm5XjOa7oGX5Gr4eRL82j9zP9JEB/Hv5q1x3ZkskP75FW+Y7huC/PWBLwE8bHoBLfl3fem5SAXaHEtx3DdyFsT8BI5oQLX0Bavi5+JWgxJyPrbkavhxGz74Lf/kwUP+fGUm89FLx/L77u9eQ/KMVy3i2CYRZocTbkJTyX5bjv/QTmG6/Y7GGYBXx3KvBu5EbRHIIkFQIp/Ry1ZBsPsNYLZ6DfjDZAzyXfzR00JCNeWK6PeAsx+sRmwFOpv4HNHM8kX9JFT2XFYt9zArJ+uQv5WPK7dCa/af/akb8d71y25D4bZK2AximjifOsNkDPB+3r0H5SkPKUjxkeVon/gWcdnNrxRf7XPnihXAmnp3QbIWTDM3iOYDSzwMSIBpT8x8Bsgm/lyLC/akpdgmEVhbXRmQ6CXhKVIvnBa6YMthpYQYBaFPQnFMV566SA+jTyXdrR7wjQcZkFaMD6zAfUwaKPPxC/HL8iV22CYBWFPfGYDujtGPId2K7h9RwiRyb5P/TCLwp74w+pNTVSCmQhfAqzZlNgFubIKhllUCBL/XnZefqgUrAFmwSj86R4iD0JhFjkHCVD/Q9QeDG/mlPUfwa50DpHDYRZZ0XjiL0B7cDBl6LBiDcClc4hMYNZPGsAniYdZf2qj/qvoy7q6e/h7DoKOroUp4d4syvYk0OaiQ7p/Q6gI0OQ11A2wYWKxqySE1RBgFrBLCWHGTPQzPEkfzZsOHxH7EFQW5hPTaiBws4hdSihBDNEeFE0ZFlLdIR6ja01xOMyegyOfEKSTxBHkFBF6a7dg+N67R3Rxx5piArP+St4FOvLxBbzkTw1/I14EPJgJrtV97wUlW7rVFFOY9Z85lM1LoLiI9hRPKEkIDIgmlw4MLojZ8370kiwJJw1QOi46gWxRWp+QLeLLkMzH1UOvN+VxtmsB4DC00gBxolIVJSO0DubqDsACKMvXNvjgUyEiY9Qti0xh1v/GkV8en0C2qro3KAjirarR9mKOA6joIjNbyEH2F3TBoomE9ArJu31Cj5C3yLqsrMxgwKR2Jypy2R1m49s5Z5YLjbIDrEU2ildyHABnO1KRFGb9tVAIZhMiL0t74NtmLbLewbyEYRCLdaQi+6F1sxBmoxPIFJ0OVhVF3qxF1t53iWSIve5GRdJKA38lISIPE3iLGbU9+y1CvBVjkQ3xV7oPKFjoRkUaxBMyr9ibjZ+xsLO0p/cH+F+cRdalG5WCQJyNXhMRArOCYYUwm9D2a2sPqlHh1Nn4D5Vugcxpt15kWmngN6wIZlM6r2ztQU4pZ5H1oar9TICz8clK/lEFwwphNqEj4N7WHsSsMBaZePglaECc7dIjRx5VMKwoH3dyaNxa3lw8rFcfH8/zoAJnQ0CU7gRKazEWWYN9TdVDnO0yS8ZYFIG9g2mW4e1jdhjdUkzHJyfjiQo5t079P4oH2092RjmDg3wHzpJHFVr1kCe+35WhBTYBg21osHV4bli83fLU9R40TB/A2eGfpO2ohLYn+A+cUHFnJKBIhXTPlM8GdKBdvG3cm8Y3AyncTikf0gXmt2FifYwRGXjNk1ReADD2beTXx7XRdYSzXVI+hIb2VGYt7+Y/gw9KQHH+haM9CBja4Ysmc0e1jkLeoEPKx5xjYFg3D6vXvlKT9tAYKLKHYMoF+hVlCAxbiwzXHH7eEIRgO7ukfEgE0nors5un7eXepoyHcm7TEvklmXxKrfog+m/pgC4Q1asF3+wymoo225L4aXY9334ejkfsfpR/SDQ+tKWoYsfQuBEnprtxPPy9sJN1kphALZeEO25++Gn7vt8PPKPCL30lZ6CeWw3yaDiAQ6JrLdMxEeJnOzQOEuie7mH2bLd6jIOPlozfAgDOpL5q+EFevmPbTeiqE3YQZ9Orz0nt2vjqvJ+AH44UIVkFYtzrhwPv263K1wyh+QeQB5Mm4fiEFvaOpRr5AAny8OkUn9pGgPy0m7jR+GG8B9Cy1yG1HlBcFSVFGCtquJPGhoCFOGipGbd81N4nW9JT66eA7kqVcdjrIUDWBMEgrJraLKs2UeaRI6LrkJU9nQ/UcfdkGJhSMKSWDpJAw5z9aHfGcdNhIqo3iG/QPn06H6vJESDEkjx0Ie/t9hnA5dsRqiYwiZsJdpPoV4gsH7bZ8TekfIKHsBWcMaQWcEstN2XZdtx6PVDBMRR6QonMLlafqkj1ygQJHslLe3wbNeCDTZuC0DaLevDg7Ybi7M1675d1ccv8Ig0VMWLQ3dhNnhOx3RTtPpASAJTaDsHZ5cP5iBlIekwJzjyR59ApPODQWlUh2h7T2jpI2EklTNcv73ud+QYQsVYRXAryxAwiAYb1hLqCWsNoNnQNcNZfwnT38d1HpJSIcePGBTWF88ChpchwbewxoX1AGtdbwnT3qb77iBykH35O3BRyJcDboJkbnRKxuFeQnfMVaj7AsZ3HlHyaRWSynRRyJcChJbWrxB6T8Bfltn1Fr99na4zko7hJ/U4SrBLgghF/RHvBFviilKUPZ70DaI4h+UBNVnG1qi6NXwpoTSbPpv0R6xCAE+ZtuPCMUzyC9KeqOI+NuyiNb5SOj/+J76b5artkC0QH3s6JmdgH3UH6b/OEZC2Z1EnyILxDSxwSnQW0q5NA1sVfKiqMFukkaf3yxi2neRCe7jOJz42xx/SPQRJTmEjwfSY5aXradYuILEXi3TRraudCYVZegLnNR3OHypElLa9CiEjyzkEEY/L9Gp3tNwHm+ob02OwufTMEUyUtVWuISAqG4I1rh1aHPU6JPGgZD+tQe06GlhwpX8L0i55NRD6Y/w3COg2qGk8dsABsamB/53nCWcmH40L9+gS7cpJUUMZRKT1Yh9Hks/RBcvUCZdACS/L/iKMnLOmfTJR6XN0ve+ioMEzB4lSE3kuGSunBOozmXGhvxKkWhsNwA0vyZ79C0TYfjpT63D5VPgjiK1pl75ttfijwevQW33FUykFA4UDN0OoQ0i2LAHmR8F7Gs4Cu6OygMOPfVxdmp1GFteukbCtOLx8WQ4+PgEZnI9q6Cv20L+9WeIDkYMQo6Wv/rvQHU6Uun3d2Bha3ZdueALFvfYUr4kkDjVU0BdjnWg10tset8ADJwZg++gvEI5SImp3PmfgfTb9wkpK3VowVMJvAOWnAW68MnPb3Wp7RuBvOlnIzap/S/qBBVFbQaCzbSZnbwAN1mtYTW2ETTxXVuRtdfeH2UiDSOq71afHqpgT7+wPiierQzzpOSh12DpuIAh0VUhFpx/aAyy8/pCtaW02KwAhE94zfHa6SpJvqN6KoP8EuBKt1rHjd1sluVERkcuF2CAPiugp3NMy2UjlgdfEj+3uL+7U5LVL9LRxqYMFPlc08rLl2HMBVezQYtNQecPkVhhiYdVUcdNInDSqmrra/pB85R84BreIZZf4TtKnxwSD+nTLQ0TvZJuhRmVxKiympNxNqgFHRu3OQy6aUKplX6T9gWsj0X/soAaa1/JTGodazQjIlpcXUaLbUeJgj7bGRqF9eqXpAxfruB/5dgWCwBxMch/BKW/H2+FUQWie1mN4jzW4Jospdf6EKaPanrj7qfT49B4LBHqRFDmisYbbdJAm+lYCzVpeaMJkYDVFzkaii4tVdc+HdhEc6Lq9eyZw3Iwcj1uAGo+mATEnBWToAXihXQHcCuuurXtnwvMYMcFBQMNiDWZ89NGkVYTQdOJYpODsPvs4IzS9s8Vp1uWdDPoNZCZ7r6gCg79+5PqxM0w14Zyk4a8bWSSQrGqjT9letRlFUu/NlN5dSAUHydK5ZJKbpBlXeJuAsNgEtAQEyMxKEajcEKs/1OGD7J0/6dDEOFTBZKTgLHaiWoHZFxoenQQhqLms1+BABzMFk18AG16YCBkak4OywVdaLBJAV7FObGB7WZDyzmcFKAGSOXzS7xHS+AforAWf5TC4nqMiBm2G/zJpNGcFimV9uiwIRMOQ9/6WzPUwPBOh4T8BZUgchBNjo/kjmeC40/zuEU//pDZgt64T68PQURCZuBS8tYdYcpL7aAmdYt+io2Vvz0XwC05VMkbUR6SoOziSgDod4nCXsouCkwKsC2tX35q7xCbP4WoyGMOVoePBdtY1c9TQ4yQk4+yfYSUF92e2X9kg6hmAnMDnszAQCofyb5ayAkx+Ps2fBTAoyCO0Q5IvsHu68pe5sW8VAd4r+BtfjhZz8aJyliu1nUpD2tDi1lfVBaNEMwHPzlf2lRfyh5l3LBJwlvUcCHsH7BR0X3+Hxq4N+8/xj5ex54QV40Jff/CbXIQkYzHicBQUznCDPwXHxCeOS6xe1VeNBcYk+x7kc3pPCN6kAJj8eZ3+6XeNQkPY4SLogl9dXu7J/5D/lIbMVyQQXbGgEhuzUf5lNDYDy83icJRkGofIVsD6ui/+qo9vpz2rI9MnzZfX8dlewoZhZA+W/g5NtpQUxZDTO3vvPMBWgPU5Ybo7wPrKvI/mml8h6ZaeC3vquEQS+A8/kx+OsiaCkWVuoWdEBSU3NlH1ylq9uWzcD23xojtJLB+EJDsDkR+MsGagjTcqDtsfygg1uFwd4s7TcZudufe5szzusBkwaBEx+NM7S2hBB80ApmROXaaqw0iqLCbP0cyYRW54broCTDMie6HHsj8LrMoJsj3PAtHNeNw+T9z2y2AEKZmzE6Ll6AqAfanCIHGl95ovdbYHaYx0wczKqhRP1ceyucQVA7hrfBYXuF+G5umicNWsWB4KiaVh2DSuZVbg31MtbSkna3r5JNIKaeXw5IwrReHsVfcMDcRX8c8sg5+YMJDEY1X9fbxXRAGd+ykZ0BeBtyShEA0uMHWlNh3MIbVyAqXCtKXmS/oi6X65nYT6Ijje8ZwEV6wKGKRZniaMtJUYAY+0S3YivbNk2o42Ib0H3WMD3B347FmdNj5jEQ4a2i8DrA50nmclhKDJ38KJXHoSkiM4VGqYKZdGgYrcVrMKL3Ry23iStcKYJlDlCX4w/zLFXB5gePXGiIgi12kcfOeeOdTO1C3jRKIeDnEy+Nj62K8vQOOKQVsD4tNV7DUHFMlOGlcY/zefy4SYC4xOJs6RrTnLxUR0mw4O0aJC8KDfAuh5oI7mzpbB+B3xIZHzicNb40aLeAZacY2DcBsW+ui9VyhqcZQyyLzbnjgqmwXnjE3lFyyzcxUc5GNbtsljrfPK2qVWKAqqJkL0q/9V+F5gJ441PJM6aHJjo4oPqTWAc19qRzcdVH/uhl8NSNUNY+IfdvrUMCmbCeOMTibPmbYnjP0GBA/rB0x+qGI3HU1U8Vwq9KYqRIoBqICoXLj4ZOUfUc9ckf5rj5nUtw118RETimYOL3cv2eW3Ix8V8RZlIA1HS+9g4TSbYVgH3Mg5nDRUgxtbA2KXfEGpSTSKa3Vj5LU+6jqfdhJPoinn74vgmEJpNU2/6MG5vwGj9O7orHrqV97njriw7E0N3I2B+cPIlbcZ4hqyZGmaPJ8bTbnFzEQ12ypdT8Gmp9CHAxn8PulbGZGF9s8D4QCQOZ02MIpLdgCRPv7/BpBDDJiN8NC/Ql67jyf+o0QthfnYlKBmZevWW2WTIAjjSALNP0dmCA+EOHkeMBsojWnl2Nn20q9Hc0InTdVjji+V5ziIOZ02sJRXqoIkd8veQmE0Oznx/MPl5W/jmknEMzt5EGEX+5/Jk7TF1hxFD7P+oft87+ooPB6PmfJvgSU4A8Kx6xMBOR4yPH5Pkvfp89x5N3iJHzfmOcCnBpqTfaWGW3/kqdCLs9K2o+xRM3BMwtpa1yCm3PNViaJxuV0fawtJ0UcbAkFSjAPx/ZNyiDjfJ6vii863flnwyNjLqPgW9rUFwuWRcgA43FehNib+c3SfLcXtXolapDUrYyMu71q6kjRmqpHHyO93JxMjyvQV+UffWNFxA4PD23s7dleikNZEnVe9ryvAzr3w4y4x8declVk+CCRF3oEgH7en1ssM5H3a8tZiVnT3KIjJknX2q0UQJhQZUTjNKH3TRnr1H/qYKdZl+U4j3T1P2Ovp+sN3VPIoOmT0Sl7GL9hzketfhkiq/3JJlHtMPAvJBitSSbm/4b+ScG/f7ffJsDPn3/1i66Ol1/80yt/VLSBoc8N/JbY0r6cR6lLxWPyfHS39X6hSaVLF2LCmbJfvifYJ/WU4rB0K4DvxoslHTwfg7PIzjys2vQyNNp9uiY2Tx8vXzP8D0zrLb/kgaofxP/sk/iZL/AWTaONeU+cCsAAAAAElFTkSuQmCC"
+        alt="H&M" />
+    </div>
+    <div class="topnext1">
+      <ul>
+        <li>
+          <a href="#" onmouseenter="Ladies()" onmouseout="Ladiesout()" id="lady">Ladies</a>
+        </li>
+        <li>
+          <a href="#" onmouseenter="Mens()" onmouseout="Mensout()" id="mens">Men</a>
+        </li>
+        <li>
+          <a href="#" onmouseenter="Baby()" onmouseout="babyout()" id="baby">Baby</a>
+        </li>
+        <li>
+          <a href="#" onmouseenter="Kids()" onmouseout="kidsout()" id="kids">Kids</a>
+        </li>
+        <li>
+          <a href="#" onmouseenter="Divide()" onmouseout="divideout()" id="divide">Divided</a>
+        </li>
+        <li>
+          <a href="#" onmouseenter="Sale()" onmouseout="saleout()" id="sale">Sale</a>
+        </li>
+        <li>
+          <a href="#" onmouseenter="Sustainability()" onmouseout="sustainout()" id="sustain">Sustainablity</a>
+        </li>
+      </ul>
+    </div>
+    <div id="top1" onmouseover="stay()" onmouseleave="leave()" style="background-color:whitesmoke;"></div>
+  </div>
+  <div class="search">
+    <a href="#"><i class="fas fa-search"></i></a>
+    <input type="text" placeholder="Search Products" />
+  </div>
+  <div class="box">
+    <ul>
+      <li><a href="#">Become a member to get 100 bonus points</a></li>
+      <li><a href="#">Be a fashion recycler! Click to learn more.</a></li>
+      <li><a href="#">Download the H&M App</a></li>
+    </ul>
+  </div>
+
+
+  <h1 style="text-align:center">Shopping bag</h1>
+  <div id="centermain">
+    <div id="products">
+
+    </div>
+
+    <div class="paymentoption">
+
+      <label style="padding:10px" >ADD A DISCOUNT CODE</label>
+      <div id="c1">
+        <input id="coupon" text="code" style="width:180px;height:35px" />
+        <button onclick="add()">ADD</button>
+      </div>
+      <div id="succ"></div>
+      <div id="c2">
+        <p>Log in to use your personal offers!</p>
+        <button onclick="add()">Login</button>
+      </div>
+      <div id="c3">
+        <div class="c31">
+          <p>Order value</p>
+          <p>Delivery</p>
+          <p>______________</p>
+          <p>Total</p>
+        </div>
+        <div class="c32">
+          <p id="ordervalue" style ="color:red">Rs.0</p>
+          <p id="delivery" style ="color:red">Rs.148</p>
+          <p>_____________</p>
+          <p id="total" style ="color:blue">Rs.0</p>
+
+        </div>
+      </div>
+      <div id="c4">
+        <button onclick="checkout()"><a href="./address.html" id="check">CONTINUE TO CHECKOUT</a></button>
+      </div>
+      <p style="margin:20px">We accept</p>
+      <div id="c5">
+        <a href="checkout.html">
+          <div style="margin:2.5px">Cash on delivery</div>
+        </a>
+        <a href="card.html">
+          <div style="margin:2.5px"><img
+              src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Fsteveolenski%2Ffiles%2F2016%2F07%2FMastercard_new_logo-1200x865.jpg"
+              width=30px /></div>
+        </a>
+        <a href="card.html">
+          <div style="margin:2.5px"><img
+              src="https://logos-world.net/wp-content/uploads/2020/04/Visa-Logo-2000-2006.png" width=30px /></div>
+        </a>
+        <a href="card.html">
+          <div style="margin:2.5px"><img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png"
+              width=30px /></div>
+        </a>
+        <a href="card.html">
+          <div style="margin:2.5px"><img
+              src="https://resize.indiatvnews.com/en/resize/newbucket/715_-/2019/08/rupay-card-1566468196.jpg"
+              width=30px /></div>
+        </a>
+      </div>
+
+      <p style="margin:10px">Prices and delivery costs are not confirmed until you've reached the checkout.</p>
+      <p style="margin:10px">30 days withdrawal and free returns.Read more about</p>
+      <a href="refundpolicy.html">
+        <p style="margin:10px">return and refund policy</p>
+      </a>
+      <button onclick="add()" style="width:250px;height:40px;margin:10px"><img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh_bEuhe4MNUqiZ-VBV2bYsuEJQqM_4MfYzQ&usqp=CAU"
+          width=15px;padding:10px />Delivery and return options ></button>
+    </div>
+
+</body>
+
+</html>
+<script>
+  var div = document.getElementById("top1");
+  function Ladies() {
+    div.innerHTML = "";
+    var lady = document.getElementById("lady");
+    lady.style.textDecoration = "underline"
+    lady.style.cursor = "pointer"
+    div.style.width = "1000px";
+
+    var a = document.createElement("h4");
+    a.textContent = "New Arrivals";
+    var ul1 = document.createElement("ul");
+
+    var li1 = document.createElement("li");
+    li1.textContent = "View All";
+
+    var li2 = document.createElement("li");
+    li2.textContent = "Clothes";
+    var li3 = document.createElement("li");
+    li3.textContent = "Shoes & Accessories";
+    var li4 = document.createElement("li");
+    li4.textContent = "Lingeri";
+
+    var b = document.createElement("h4");
+    b.textContent = "Trending Now";
+
+    var li11 = document.createElement("li");
+    li11.textContent = "Shirts you need now";
+    var li22 = document.createElement("li");
+    li22.textContent = "Feel good Lingeri";
+    var li33 = document.createElement("li");
+    li33.textContent = "Sleeves knits and outdoors";
+    var li44 = document.createElement("li");
+    li44.textContent = "Y2k fashion";
+    var li55 = document.createElement("li");
+    li55.textContent = "Music,Movies&Logos";
+
+
+    var c = document.createElement("h4");
+    c.textContent = "Deals";
+    var li111 = document.createElement("li");
+    li111.textContent = "Socks-Buy 2 get 1 free!";
+
+
+    var d = document.createElement("h4");
+    d.textContent = "Shop by product";
+    var ul2 = document.createElement("ul");
+    var b1 = document.createElement("li");
+    b1.textContent = "View All";
+    var b2 = document.createElement("li");
+    b2.textContent = "Tops & T-shirts";
+    var b3 = document.createElement("li");
+    b3.textContent = "Basics";
+    var b4 = document.createElement("li");
+    b4.textContent = "Shirts & Blouses";
+    var b5 = document.createElement("li");
+    b5.textContent = "Cardigans & Swraters";
+    var b6 = document.createElement("li");
+    b6.textContent = "Knitwear";
+    var b7 = document.createElement("li");
+    b7.textContent = "Blazers";
+    var b8 = document.createElement("li");
+    b8.textContent = "Jackets & Coats";
+    var b9 = document.createElement("li");
+    b9.textContent = "Trousers";
+    var b10 = document.createElement("li");
+    b10.textContent = "Jeans";
+    var b11 = document.createElement("li");
+    b11.textContent = "Shorts";
+    var b12 = document.createElement("li");
+    b12.textContent = "Skirts";
+    var b13 = document.createElement("li");
+    b13.textContent = "Dresses";
+    var b14 = document.createElement("li");
+    b14.textContent = "Jumpsuits";
+    var b15 = document.createElement("li");
+    b15.textContent = "Shoes";
+    var b16 = document.createElement("li");
+    b16.textContent = "Accessories";
+    var b17 = document.createElement("li");
+    b17.textContent = "Swimwear & Beachwear";
+    var b18 = document.createElement("li");
+    b18.textContent = "Lingerie";
+    var b19 = document.createElement("li");
+    b19.textContent = "Loungewear";
+    var b20 = document.createElement("li");
+    b20.textContent = "Nightwear";
+    var b21 = document.createElement("li");
+    b21.textContent = "Socks & Tights";
+    var b22 = document.createElement("li");
+    b22.textContent = "Sportswear";
+    var b23 = document.createElement("li");
+    b23.textContent = "Plussizes";
+    var b24 = document.createElement("li");
+    b24.textContent = "Maternity Wear";
+    var b25 = document.createElement("li");
+    b25.textContent = "Dog clothes & Accessories";
+
+    var e = document.createElement("h4");
+    e.textContent = "Sustainability";
+    var ul3 = document.createElement("ul");
+    var c1 = document.createElement("li");
+    c1.textContent = "H&M Take Care";
+    var c2 = document.createElement("li");
+    c2.textContent = "Our products";
+    var c3 = document.createElement("li");
+    c3.textContent = "Learn More";
+
+    var f = document.createElement("h4");
+    e.textContent = "Magazine";
+    var c4 = document.createElement("li");
+    c4.textContent = "Magazine";
+
+    var g = document.createElement("h4");
+    e.textContent = "Shop by Occasion";
+    var c5 = document.createElement("li");
+    c5.textContent = "Party Wear";
+    var c6 = document.createElement("li");
+    c6.textContent = "Casual Wear";
+    var c7 = document.createElement("li");
+    c7.textContent = "Office Wear";
+    var c8 = document.createElement("li");
+    c8.textContent = "Loungewear";
+
+
+    ul1.append(a, li1, li2, li3, li4, b, li11, li22, li33, li44, li55, c, li111);
+    ul2.append(d, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25);
+    ul3.append(e, c1, c2, c3, c4, c5, c6, c7, c8);
+    div.append(ul1, ul2, ul3);
+    function stay() {
+
+      div.append(ul1, ul2, ul3);
+    }
+  }
+
+  function removeallchild(parent) {
+    while (parent.firstChild) {
+      parent.removeChild(parent.firstChild);
+    }
+  }
+
+  function Ladiesout() {
+    var lady = document.getElementById("lady");
+    lady.style.textDecoration = ""
+  }
+  function leave() {
+    const container = document.querySelector("#top1");
+    removeallchild(container);
+  }
+
+
+  function Mens() {
+    div.innerHTML = "";
+    div.style.width = "1000px";
+
+    var mens = document.getElementById("mens")
+    mens.style.textDecoration = "underline"
+    mens.style.cursor = "pointer"
+
+    var a = document.createElement("h4");
+    a.textContent = "New Arrivals";
+    var ul1 = document.createElement("ul");
+    var li1 = document.createElement("li");
+    li1.textContent = "View All";
+    var li2 = document.createElement("li");
+    li2.textContent = "Clothes";
+    var li3 = document.createElement("li");
+    li3.textContent = "Shoes & Accessories";
+    var li4 = document.createElement("li");
+    li4.textContent = "Lingeri";
+
+    var b = document.createElement("h4");
+    b.textContent = "Trending Now";
+
+    var li11 = document.createElement("li");
+    li11.textContent = "Shirts you need now";
+    var li22 = document.createElement("li");
+    li22.textContent = "Feel good Lingeri";
+    var li33 = document.createElement("li");
+    li33.textContent = "Sleeves knits and outdoors";
+    var li44 = document.createElement("li");
+    li44.textContent = "Y2k fashion";
+    var li55 = document.createElement("li");
+    li55.textContent = "Music,Movies&Logos";
+
+
+    var c = document.createElement("h4");
+    c.textContent = "Deals";
+    var li111 = document.createElement("li");
+    li111.textContent = "Socks-Buy 2 get 1 free!";
+
+
+    var d = document.createElement("h4");
+    d.textContent = "Shop by product";
+    var ul2 = document.createElement("ul");
+    var b1 = document.createElement("li");
+    b1.textContent = "View All";
+    var b2 = document.createElement("li");
+    b2.textContent = "Tops & T-shirts";
+    var b3 = document.createElement("li");
+    b3.textContent = "Basics";
+    var b4 = document.createElement("li");
+    b4.textContent = "Shirts & Blouses";
+    var b5 = document.createElement("li");
+    b5.textContent = "Cardigans & Swraters";
+    var b6 = document.createElement("li");
+    b6.textContent = "Knitwear";
+    var b7 = document.createElement("li");
+    b7.textContent = "Blazers";
+    var b8 = document.createElement("li");
+    b8.textContent = "Jackets & Coats";
+    var b9 = document.createElement("li");
+    b9.textContent = "Trousers";
+    var b10 = document.createElement("li");
+    b10.textContent = "Jeans";
+    var b11 = document.createElement("li");
+    b11.textContent = "Shorts";
+    var b12 = document.createElement("li");
+    b12.textContent = "Skirts";
+    var b13 = document.createElement("li");
+    b13.textContent = "Dresses";
+    var b14 = document.createElement("li");
+    b14.textContent = "Jumpsuits";
+    var b15 = document.createElement("li");
+    b15.textContent = "Shoes";
+    var b16 = document.createElement("li");
+    b16.textContent = "Accessories";
+    var b17 = document.createElement("li");
+    b17.textContent = "Swimwear & Beachwear";
+    var b18 = document.createElement("li");
+    b18.textContent = "Lingerie";
+    var b19 = document.createElement("li");
+    b19.textContent = "Loungewear";
+    var b20 = document.createElement("li");
+    b20.textContent = "Nightwear";
+    var b21 = document.createElement("li");
+    b21.textContent = "Socks & Tights";
+    var b22 = document.createElement("li");
+    b22.textContent = "Sportswear";
+    var b23 = document.createElement("li");
+    b23.textContent = "Plussizes";
+    var b24 = document.createElement("li");
+    b24.textContent = "Maternity Wear";
+    var b25 = document.createElement("li");
+    b25.textContent = "Dog clothes & Accessories";
+
+    var e = document.createElement("h4");
+    e.textContent = "Sustainability";
+    var ul3 = document.createElement("ul");
+    var c1 = document.createElement("li");
+    c1.textContent = "H&M Take Care";
+    var c2 = document.createElement("li");
+    c2.textContent = "Our products";
+    var c3 = document.createElement("li");
+    c3.textContent = "Learn More";
+
+    var f = document.createElement("h4");
+    e.textContent = "Magazine";
+    var c4 = document.createElement("li");
+    c4.textContent = "Magazine";
+
+    var g = document.createElement("h4");
+    e.textContent = "Shop by Occasion";
+    var c5 = document.createElement("li");
+    c5.textContent = "Party Wear";
+    var c6 = document.createElement("li");
+    c6.textContent = "Casual Wear";
+    var c7 = document.createElement("li");
+    c7.textContent = "Office Wear";
+    var c8 = document.createElement("li");
+    c8.textContent = "Loungewear";
+
+
+    ul1.append(a, li1, li2, li3, li4, b, li11, li22, li33, li44, li55, c, li111);
+    ul2.append(d, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25);
+    ul3.append(e, c1, c2, c3, c4, c5, c6, c7, c8);
+    div.append(ul1, ul2, ul3);
+
+  }
+
+  function removeallchild(parent) {
+    while (parent.firstChild) {
+      parent.removeChild(parent.firstChild);
+    }
+  }
+
+  function leave() {
+    const container = document.querySelector("#top1");
+    removeallchild(container);
+  }
+  function Mensout() {
+    var mens = document.getElementById("mens");
+    mens.style.textDecoration = ""
+  }
+
+
+  function Baby() {
+    div.innerHTML = "";
+    div.style.width = "1000px";
+
+    var baby = document.getElementById("baby")
+    baby.style.textDecoration = "underline"
+    baby.style.cursor = "pointer"
+
+    var a = document.createElement("h4");
+    a.textContent = "New Arrivals";
+    var ul1 = document.createElement("ul");
+    var li1 = document.createElement("li");
+    li1.textContent = "View All";
+    var li2 = document.createElement("li");
+    li2.textContent = "Clothes";
+    var li3 = document.createElement("li");
+    li3.textContent = "Shoes & Accessories";
+    var li4 = document.createElement("li");
+    li4.textContent = "Lingeri";
+
+    var b = document.createElement("h4");
+    b.textContent = "Trending Now";
+
+    var li11 = document.createElement("li");
+    li11.textContent = "Shirts you need now";
+    var li22 = document.createElement("li");
+    li22.textContent = "Feel good Lingeri";
+    var li33 = document.createElement("li");
+    li33.textContent = "Sleeves knits and outdoors";
+    var li44 = document.createElement("li");
+    li44.textContent = "Y2k fashion";
+    var li55 = document.createElement("li");
+    li55.textContent = "Music,Movies&Logos";
+
+
+    var c = document.createElement("h4");
+    c.textContent = "Deals";
+    var li111 = document.createElement("li");
+    li111.textContent = "Socks-Buy 2 get 1 free!";
+
+
+    var d = document.createElement("h4");
+    d.textContent = "Shop by product";
+    var ul2 = document.createElement("ul");
+    var b1 = document.createElement("li");
+    b1.textContent = "View All";
+    var b2 = document.createElement("li");
+    b2.textContent = "Tops & T-shirts";
+    var b3 = document.createElement("li");
+    b3.textContent = "Basics";
+    var b4 = document.createElement("li");
+    b4.textContent = "Shirts & Blouses";
+    var b5 = document.createElement("li");
+    b5.textContent = "Cardigans & Swraters";
+    var b6 = document.createElement("li");
+    b6.textContent = "Knitwear";
+    var b7 = document.createElement("li");
+    b7.textContent = "Blazers";
+    var b8 = document.createElement("li");
+    b8.textContent = "Jackets & Coats";
+    var b9 = document.createElement("li");
+    b9.textContent = "Trousers";
+    var b10 = document.createElement("li");
+    b10.textContent = "Jeans";
+    var b11 = document.createElement("li");
+    b11.textContent = "Shorts";
+    var b12 = document.createElement("li");
+    b12.textContent = "Skirts";
+    var b13 = document.createElement("li");
+    b13.textContent = "Dresses";
+    var b14 = document.createElement("li");
+    b14.textContent = "Jumpsuits";
+    var b15 = document.createElement("li");
+    b15.textContent = "Shoes";
+    var b16 = document.createElement("li");
+    b16.textContent = "Accessories";
+    var b17 = document.createElement("li");
+    b17.textContent = "Swimwear & Beachwear";
+    var b18 = document.createElement("li");
+    b18.textContent = "Lingerie";
+    var b19 = document.createElement("li");
+    b19.textContent = "Loungewear";
+    var b20 = document.createElement("li");
+    b20.textContent = "Nightwear";
+    var b21 = document.createElement("li");
+    b21.textContent = "Socks & Tights";
+    var b22 = document.createElement("li");
+    b22.textContent = "Sportswear";
+    var b23 = document.createElement("li");
+    b23.textContent = "Plussizes";
+    var b24 = document.createElement("li");
+    b24.textContent = "Maternity Wear";
+    var b25 = document.createElement("li");
+    b25.textContent = "Dog clothes & Accessories";
+
+    var e = document.createElement("h4");
+    e.textContent = "Sustainability";
+    var ul3 = document.createElement("ul");
+    var c1 = document.createElement("li");
+    c1.textContent = "H&M Take Care";
+    var c2 = document.createElement("li");
+    c2.textContent = "Our products";
+    var c3 = document.createElement("li");
+    c3.textContent = "Learn More";
+
+    var f = document.createElement("h4");
+    e.textContent = "Magazine";
+    var c4 = document.createElement("li");
+    c4.textContent = "Magazine";
+
+    var g = document.createElement("h4");
+    e.textContent = "Shop by Occasion";
+    var c5 = document.createElement("li");
+    c5.textContent = "Party Wear";
+    var c6 = document.createElement("li");
+    c6.textContent = "Casual Wear";
+    var c7 = document.createElement("li");
+    c7.textContent = "Office Wear";
+    var c8 = document.createElement("li");
+    c8.textContent = "Loungewear";
+
+
+    ul1.append(a, li1, li2, li3, li4, b, li11, li22, li33, li44, li55, c, li111);
+    ul2.append(d, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25);
+    ul3.append(e, c1, c2, c3, c4, c5, c6, c7, c8);
+    div.append(ul1, ul2, ul3);
+
+    //  function stay() {
+    //    div.append(ul1,ul2,ul3);
+    //  }
+
+
+
+
+
+  }
+
+  function removeallchild(parent) {
+    while (parent.firstChild) {
+      parent.removeChild(parent.firstChild);
+    }
+  }
+
+  function leave() {
+    const container = document.querySelector("#top1");
+    removeallchild(container);
+  }
+  function babyout() {
+    var baby = document.getElementById("baby");
+    baby.style.textDecoration = ""
+  }
+
+
+  function Kids() {
+    div.innerHTML = "";
+    div.style.width = "1000px";
+
+    var kids = document.getElementById("kids")
+    kids.style.textDecoration = "underline"
+    kids.style.cursor = "pointer"
+
+    var a = document.createElement("h4");
+    a.textContent = "Girls";
+    var ul1 = document.createElement("ul");
+    var li1 = document.createElement("li");
+    li1.textContent = "View All";
+    var li2 = document.createElement("li");
+    li2.textContent = "Clothes";
+    var li3 = document.createElement("li");
+    li3.textContent = "Shoes & Accessories";
+    var li4 = document.createElement("li");
+    li4.textContent = "Lingeri";
+
+    var b = document.createElement("h4");
+    b.textContent = "Trending Now";
+
+    var li11 = document.createElement("li");
+    li11.textContent = "Shirts you need now";
+    var li22 = document.createElement("li");
+    li22.textContent = "Feel good Lingeri";
+    var li33 = document.createElement("li");
+    li33.textContent = "Sleeves knits and outdoors";
+    var li44 = document.createElement("li");
+    li44.textContent = "Y2k fashion";
+    var li55 = document.createElement("li");
+    li55.textContent = "Music,Movies&Logos";
+
+
+    var c = document.createElement("h4");
+    c.textContent = "Deals";
+    var li111 = document.createElement("li");
+    li111.textContent = "Socks-Buy 2 get 1 free!";
+
+    var z = document.createElement("h4");
+    z.textContent = "Boys";
+    var ul4 = document.createElement("ul");
+    var z1 = document.createElement("li");
+    z1.textContent = "View all";
+    var z2 = document.createElement("li");
+    z2.textContent = "New Arrivals";
+    var z3 = document.createElement("li");
+    z3.textContent = "Clothing";
+    var z4 = document.createElement("li");
+    z4.textContent = "Outerwear";
+    var z5 = document.createElement("li");
+    z5.textContent = "Accessories";
+    var z6 = document.createElement("li");
+    z6.textContent = "Shoes";
+    var z7 = document.createElement("li");
+    z7.textContent = "Costumes";
+
+    var d = document.createElement("h4");
+    d.textContent = "Shop by product";
+    var ul2 = document.createElement("ul");
+    var b1 = document.createElement("li");
+    b1.textContent = "View All";
+    var b2 = document.createElement("li");
+    b2.textContent = "Tops & T-shirts";
+    var b3 = document.createElement("li");
+    b3.textContent = "Basics";
+    var b4 = document.createElement("li");
+    b4.textContent = "Shirts & Blouses";
+    var b5 = document.createElement("li");
+    b5.textContent = "Cardigans & Swraters";
+    var b6 = document.createElement("li");
+    b6.textContent = "Knitwear";
+    var b7 = document.createElement("li");
+    b7.textContent = "Blazers";
+    var b8 = document.createElement("li");
+    b8.textContent = "Jackets & Coats";
+    var b9 = document.createElement("li");
+    b9.textContent = "Trousers";
+    var b10 = document.createElement("li");
+    b10.textContent = "Jeans";
+    var b11 = document.createElement("li");
+    b11.textContent = "Shorts";
+    var b12 = document.createElement("li");
+    b12.textContent = "Skirts";
+    var b13 = document.createElement("li");
+    b13.textContent = "Dresses";
+    var b14 = document.createElement("li");
+    b14.textContent = "Jumpsuits";
+    var b15 = document.createElement("li");
+    b15.textContent = "Shoes";
+    var b16 = document.createElement("li");
+    b16.textContent = "Accessories";
+    var b17 = document.createElement("li");
+    b17.textContent = "Swimwear & Beachwear";
+    var b18 = document.createElement("li");
+    b18.textContent = "Lingerie";
+    var b19 = document.createElement("li");
+    b19.textContent = "Loungewear";
+    var b20 = document.createElement("li");
+    b20.textContent = "Nightwear";
+    var b21 = document.createElement("li");
+    b21.textContent = "Socks & Tights";
+    var b22 = document.createElement("li");
+    b22.textContent = "Sportswear";
+    var b23 = document.createElement("li");
+    b23.textContent = "Plussizes";
+    var b24 = document.createElement("li");
+    b24.textContent = "Maternity Wear";
+    var b25 = document.createElement("li");
+    b25.textContent = "Dog clothes & Accessories";
+
+    var e = document.createElement("h4");
+    e.textContent = "Sustainability";
+    var ul3 = document.createElement("ul");
+    var c1 = document.createElement("li");
+    c1.textContent = "H&M Take Care";
+    var c2 = document.createElement("li");
+    c2.textContent = "Our products";
+    var c3 = document.createElement("li");
+    c3.textContent = "Learn More";
+
+    var f = document.createElement("h4");
+    e.textContent = "Magazine";
+    var c4 = document.createElement("li");
+    c4.textContent = "Magazine";
+
+    var g = document.createElement("h4");
+    e.textContent = "Shop by Occasion";
+    var c5 = document.createElement("li");
+    c5.textContent = "Party Wear";
+    var c6 = document.createElement("li");
+    c6.textContent = "Casual Wear";
+    var c7 = document.createElement("li");
+    c7.textContent = "Office Wear";
+    var c8 = document.createElement("li");
+    c8.textContent = "Loungewear";
+
+
+    ul1.append(a, li1, li2, li3, li4, b, li11, li22, li33, li44, li55, c, li111);
+    ul2.append(d, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25);
+    ul3.append(e, c1, c2, c3, c4, c5, c6, c7, c8);
+    ul4.append(z, z1, z2, z3, z4, z5, z6, z7);
+    div.append(ul1, ul4, ul2, ul3);
+
+    //  function stay() {
+    //    div.append(ul1,ul4,ul2,ul3);
+    //  }
+
+
+
+
+
+  }
+
+  function removeallchild(parent) {
+    while (parent.firstChild) {
+      parent.removeChild(parent.firstChild);
+    }
+  }
+
+
+  function leave() {
+    const container = document.querySelector("#top1");
+    removeallchild(container);
+  }
+
+  function kidsout() {
+    var kids = document.getElementById("kids");
+    kids.style.textDecoration = ""
+  }
+
+  function Divide() {
+    div.innerHTML = "";
+    div.style.width = "1000px";
+
+    var divide = document.getElementById("divide")
+    divide.style.textDecoration = "underline"
+    divide.style.cursor = "pointer"
+    var a = document.createElement("h4");
+    a.textContent = "New Arrivals";
+    var ul1 = document.createElement("ul");
+    var li1 = document.createElement("li");
+    li1.textContent = "View All";
+    var li2 = document.createElement("li");
+    li2.textContent = "Clothes";
+    var li3 = document.createElement("li");
+    li3.textContent = "Shoes & Accessories";
+    var li4 = document.createElement("li");
+    li4.textContent = "Lingeri";
+
+    var b = document.createElement("h4");
+    b.textContent = "Trending Now";
+
+    var li11 = document.createElement("li");
+    li11.textContent = "Shirts you need now";
+    var li22 = document.createElement("li");
+    li22.textContent = "Feel good Lingeri";
+    var li33 = document.createElement("li");
+    li33.textContent = "Sleeves knits and outdoors";
+    var li44 = document.createElement("li");
+    li44.textContent = "Y2k fashion";
+    var li55 = document.createElement("li");
+    li55.textContent = "Music,Movies&Logos";
+
+
+    var c = document.createElement("h4");
+    c.textContent = "Deals";
+    var li111 = document.createElement("li");
+    li111.textContent = "Socks-Buy 2 get 1 free!";
+
+
+    var d = document.createElement("h4");
+    d.textContent = "Shop by product";
+    var ul2 = document.createElement("ul");
+    var b1 = document.createElement("li");
+    b1.textContent = "View All";
+    var b2 = document.createElement("li");
+    b2.textContent = "Tops & T-shirts";
+    var b3 = document.createElement("li");
+    b3.textContent = "Basics";
+    var b4 = document.createElement("li");
+    b4.textContent = "Shirts & Blouses";
+    var b5 = document.createElement("li");
+    b5.textContent = "Cardigans & Swraters";
+    var b6 = document.createElement("li");
+    b6.textContent = "Knitwear";
+    var b7 = document.createElement("li");
+    b7.textContent = "Blazers";
+    var b8 = document.createElement("li");
+    b8.textContent = "Jackets & Coats";
+    var b9 = document.createElement("li");
+    b9.textContent = "Trousers";
+    var b10 = document.createElement("li");
+    b10.textContent = "Jeans";
+    var b11 = document.createElement("li");
+    b11.textContent = "Shorts";
+    var b12 = document.createElement("li");
+    b12.textContent = "Skirts";
+    var b13 = document.createElement("li");
+    b13.textContent = "Dresses";
+    var b14 = document.createElement("li");
+    b14.textContent = "Jumpsuits";
+    var b15 = document.createElement("li");
+    b15.textContent = "Shoes";
+    var b16 = document.createElement("li");
+    b16.textContent = "Accessories";
+    var b17 = document.createElement("li");
+    b17.textContent = "Swimwear & Beachwear";
+    var b18 = document.createElement("li");
+    b18.textContent = "Lingerie";
+    var b19 = document.createElement("li");
+    b19.textContent = "Loungewear";
+    var b20 = document.createElement("li");
+    b20.textContent = "Nightwear";
+    var b21 = document.createElement("li");
+    b21.textContent = "Socks & Tights";
+    var b22 = document.createElement("li");
+    b22.textContent = "Sportswear";
+    var b23 = document.createElement("li");
+    b23.textContent = "Plussizes";
+    var b24 = document.createElement("li");
+    b24.textContent = "Maternity Wear";
+    var b25 = document.createElement("li");
+    b25.textContent = "Dog clothes & Accessories";
+
+    var e = document.createElement("h4");
+    e.textContent = "Sustainability";
+    var ul3 = document.createElement("ul");
+    var c1 = document.createElement("li");
+    c1.textContent = "H&M Take Care";
+    var c2 = document.createElement("li");
+    c2.textContent = "Our products";
+    var c3 = document.createElement("li");
+    c3.textContent = "Learn More";
+
+    var f = document.createElement("h4");
+    e.textContent = "Magazine";
+    var c4 = document.createElement("li");
+    c4.textContent = "Magazine";
+
+    var g = document.createElement("h4");
+    e.textContent = "Shop by Occasion";
+    var c5 = document.createElement("li");
+    c5.textContent = "Party Wear";
+    var c6 = document.createElement("li");
+    c6.textContent = "Casual Wear";
+    var c7 = document.createElement("li");
+    c7.textContent = "Office Wear";
+    var c8 = document.createElement("li");
+    c8.textContent = "Loungewear";
+
+
+    ul1.append(a, li1, li2, li3, li4, b, li11, li22, li33, li44, li55, c, li111);
+    ul2.append(d, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25);
+    ul3.append(e, c1, c2, c3, c4, c5, c6, c7, c8);
+    div.append(ul1, ul2, ul3);
+
+    //  function stay() {
+    //  div.append(ul1,ul2,ul3);
+
+    //  }
+
+
+
+
+
+  }
+
+  function removeallchild(parent) {
+    while (parent.firstChild) {
+      parent.removeChild(parent.firstChild);
+    }
+  }
+
+  function leave() {
+    const container = document.querySelector("#top1");
+    removeallchild(container);
+  }
+  function divideout() {
+    var divide = document.getElementById("divide");
+    divide.style.textDecoration = ""
+  }
+  function Sale() {
+    div.innerHTML = "";
+    div.style.width = "1000px";
+
+
+    var sale = document.getElementById("sale")
+    sale.style.textDecoration = "underline"
+    sale.style.cursor = "pointer"
+
+    var a = document.createElement("h4");
+    a.textContent = "New Arrivals";
+    var ul1 = document.createElement("ul");
+    var li1 = document.createElement("li");
+    li1.textContent = "View All";
+    var li2 = document.createElement("li");
+    li2.textContent = "Clothes";
+    var li3 = document.createElement("li");
+    li3.textContent = "Shoes & Accessories";
+    var li4 = document.createElement("li");
+    li4.textContent = "Lingeri";
+
+    var b = document.createElement("h4");
+    b.textContent = "Trending Now";
+
+    var li11 = document.createElement("li");
+    li11.textContent = "Shirts you need now";
+    var li22 = document.createElement("li");
+    li22.textContent = "Feel good Lingeri";
+    var li33 = document.createElement("li");
+    li33.textContent = "Sleeves knits and outdoors";
+    var li44 = document.createElement("li");
+    li44.textContent = "Y2k fashion";
+    var li55 = document.createElement("li");
+    li55.textContent = "Music,Movies&Logos";
+
+
+    var c = document.createElement("h4");
+    c.textContent = "Deals";
+    var li111 = document.createElement("li");
+    li111.textContent = "Socks-Buy 2 get 1 free!";
+
+
+    var d = document.createElement("h4");
+    d.textContent = "Shop by product";
+    var ul2 = document.createElement("ul");
+    var b1 = document.createElement("li");
+    b1.textContent = "View All";
+    var b2 = document.createElement("li");
+    b2.textContent = "Tops & T-shirts";
+    var b3 = document.createElement("li");
+    b3.textContent = "Basics";
+    var b4 = document.createElement("li");
+    b4.textContent = "Shirts & Blouses";
+    var b5 = document.createElement("li");
+    b5.textContent = "Cardigans & Swraters";
+    var b6 = document.createElement("li");
+    b6.textContent = "Knitwear";
+    var b7 = document.createElement("li");
+    b7.textContent = "Blazers";
+    var b8 = document.createElement("li");
+    b8.textContent = "Jackets & Coats";
+    var b9 = document.createElement("li");
+    b9.textContent = "Trousers";
+    var b10 = document.createElement("li");
+    b10.textContent = "Jeans";
+    var b11 = document.createElement("li");
+    b11.textContent = "Shorts";
+    var b12 = document.createElement("li");
+    b12.textContent = "Skirts";
+    var b13 = document.createElement("li");
+    b13.textContent = "Dresses";
+    var b14 = document.createElement("li");
+    b14.textContent = "Jumpsuits";
+    var b15 = document.createElement("li");
+    b15.textContent = "Shoes";
+    var b16 = document.createElement("li");
+    b16.textContent = "Accessories";
+    var b17 = document.createElement("li");
+    b17.textContent = "Swimwear & Beachwear";
+    var b18 = document.createElement("li");
+    b18.textContent = "Lingerie";
+    var b19 = document.createElement("li");
+    b19.textContent = "Loungewear";
+    var b20 = document.createElement("li");
+    b20.textContent = "Nightwear";
+    var b21 = document.createElement("li");
+    b21.textContent = "Socks & Tights";
+    var b22 = document.createElement("li");
+    b22.textContent = "Sportswear";
+    var b23 = document.createElement("li");
+    b23.textContent = "Plussizes";
+    var b24 = document.createElement("li");
+    b24.textContent = "Maternity Wear";
+    var b25 = document.createElement("li");
+    b25.textContent = "Dog clothes & Accessories";
+    var e = document.createElement("h4");
+    e.textContent = "Sustainability";
+    var ul3 = document.createElement("ul");
+    var c1 = document.createElement("li");
+    c1.textContent = "H&M Take Care";
+    var c2 = document.createElement("li");
+    c2.textContent = "Our products";
+    var c3 = document.createElement("li");
+    c3.textContent = "Learn More";
+
+    var f = document.createElement("h4");
+    e.textContent = "Magazine";
+    var c4 = document.createElement("li");
+    c4.textContent = "Magazine";
+
+    var g = document.createElement("h4");
+    e.textContent = "Shop by Occasion";
+    var c5 = document.createElement("li");
+    c5.textContent = "Party Wear";
+    var c6 = document.createElement("li");
+    c6.textContent = "Casual Wear";
+    var c7 = document.createElement("li");
+    c7.textContent = "Office Wear";
+    var c8 = document.createElement("li");
+    c8.textContent = "Loungewear";
+
+
+    ul1.append(a, li1, li2, li3, li4, b, li11, li22, li33, li44, li55, c, li111);
+    ul2.append(d, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25);
+    ul3.append(e, c1, c2, c3, c4, c5, c6, c7, c8);
+    div.append(ul1, ul2, ul3);
+
+  }
+
+  function removeallchild(parent) {
+    while (parent.firstChild) {
+      parent.removeChild(parent.firstChild);
+    }
+  }
+
+  function leave() {
+    const container = document.querySelector("#top1");
+    removeallchild(container);
+  }
+  function saleout() {
+    var sale = document.getElementById("sale");
+    sale.style.textDecoration = ""
+  }
+
+  function Sustainability() {
+    div.innerHTML = "";
+    div.style.width = "1000px";
+
+    var sustain = document.getElementById("sustain")
+    sustain.style.textDecoration = "underline"
+    sustain.style.cursor = "pointer"
+
+    var a = document.createElement("h4");
+    a.textContent = "New Arrivals";
+    var ul1 = document.createElement("ul");
+    var li1 = document.createElement("li");
+    li1.textContent = "View All";
+    var li2 = document.createElement("li");
+    li2.textContent = "Clothes";
+    var li3 = document.createElement("li");
+    li3.textContent = "Shoes & Accessories";
+    var li4 = document.createElement("li");
+    li4.textContent = "Lingeri";
+
+    var b = document.createElement("h4");
+    b.textContent = "Trending Now";
+
+    var li11 = document.createElement("li");
+    li11.textContent = "Shirts you need now";
+    var li22 = document.createElement("li");
+    li22.textContent = "Feel good Lingeri";
+    var li33 = document.createElement("li");
+    li33.textContent = "Sleeves knits and outdoors";
+    var li44 = document.createElement("li");
+    li44.textContent = "Y2k fashion";
+    var li55 = document.createElement("li");
+    li55.textContent = "Music,Movies&Logos";
+
+
+    var c = document.createElement("h4");
+    c.textContent = "Deals";
+    var li111 = document.createElement("li");
+    li111.textContent = "Socks-Buy 2 get 1 free!";
+
+    var z = document.createElement("h4");
+    z.textContent = "Boys";
+    var ul4 = document.createElement("ul");
+    var z1 = document.createElement("li");
+    z1.textContent = "View all";
+    var z2 = document.createElement("li");
+    z2.textContent = "New Arrivals";
+    var z3 = document.createElement("li");
+    z3.textContent = "Clothing";
+    var z4 = document.createElement("li");
+    z4.textContent = "Outerwear";
+    var z5 = document.createElement("li");
+    z5.textContent = "Accessories";
+    var z6 = document.createElement("li");
+    z6.textContent = "Shoes";
+    var z7 = document.createElement("li");
+    z7.textContent = "Costumes";
+
+    var d = document.createElement("h4");
+    d.textContent = "Shop by product";
+    var ul2 = document.createElement("ul");
+    var b1 = document.createElement("li");
+    b1.textContent = "View All";
+    var b2 = document.createElement("li");
+    b2.textContent = "Tops & T-shirts";
+    var b3 = document.createElement("li");
+    b3.textContent = "Basics";
+    var b4 = document.createElement("li");
+    b4.textContent = "Shirts & Blouses";
+    var b5 = document.createElement("li");
+    b5.textContent = "Cardigans & Swraters";
+    var b6 = document.createElement("li");
+    b6.textContent = "Knitwear";
+    var b7 = document.createElement("li");
+    b7.textContent = "Blazers";
+    var b8 = document.createElement("li");
+    b8.textContent = "Jackets & Coats";
+    var b9 = document.createElement("li");
+    b9.textContent = "Trousers";
+    var b10 = document.createElement("li");
+    b10.textContent = "Jeans";
+    var b11 = document.createElement("li");
+    b11.textContent = "Shorts";
+    var b12 = document.createElement("li");
+    b12.textContent = "Skirts";
+    var b13 = document.createElement("li");
+    b13.textContent = "Dresses";
+    var b14 = document.createElement("li");
+    b14.textContent = "Jumpsuits";
+    var b15 = document.createElement("li");
+    b15.textContent = "Shoes";
+    var b16 = document.createElement("li");
+    b16.textContent = "Accessories";
+    var b17 = document.createElement("li");
+    b17.textContent = "Swimwear & Beachwear";
+    var b18 = document.createElement("li");
+    b18.textContent = "Lingerie";
+    var b19 = document.createElement("li");
+    b19.textContent = "Loungewear";
+    var b20 = document.createElement("li");
+    b20.textContent = "Nightwear";
+    var b21 = document.createElement("li");
+    b21.textContent = "Socks & Tights";
+    var b22 = document.createElement("li");
+    b22.textContent = "Sportswear";
+    var b23 = document.createElement("li");
+    b23.textContent = "Plussizes";
+    var b24 = document.createElement("li");
+    b24.textContent = "Maternity Wear";
+    var b25 = document.createElement("li");
+    b25.textContent = "Dog clothes & Accessories";
+
+    var e = document.createElement("h4");
+    e.textContent = "Sustainability";
+    var ul3 = document.createElement("ul");
+    var c1 = document.createElement("li");
+    c1.textContent = "H&M Take Care";
+    var c2 = document.createElement("li");
+    c2.textContent = "Our products";
+    var c3 = document.createElement("li");
+    c3.textContent = "Learn More";
+
+    var f = document.createElement("h4");
+    e.textContent = "Magazine";
+    var c4 = document.createElement("li");
+    c4.textContent = "Magazine";
+
+    var g = document.createElement("h4");
+    e.textContent = "Shop by Occasion";
+    var c5 = document.createElement("li");
+    c5.textContent = "Party Wear";
+    var c6 = document.createElement("li");
+    c6.textContent = "Casual Wear";
+    var c7 = document.createElement("li");
+    c7.textContent = "Office Wear";
+    var c8 = document.createElement("li");
+    c8.textContent = "Loungewear";
+
+
+    ul1.append(a, li1, li2, li3, li4, b, li11, li22, li33, li44, li55, c, li111);
+    ul2.append(d, b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19, b20, b21, b22, b23, b24, b25);
+    ul3.append(e, c1, c2, c3, c4, c5, c6, c7, c8);
+    ul4.append(z, z1, z2, z3, z4, z5, z6, z7)
+    div.append(ul1, ul4, ul2, ul3);
+  }
+
+  function removeallchild(parent) {
+    while (parent.firstChild) {
+      parent.removeChild(parent.firstChild);
+    }
+  }
+
+  function leave() {
+    const container = document.querySelector("#top1");
+    removeallchild(container);
+  }
+
+  function sustainout() {
+    var sustain = document.getElementById("sustain");
+    sustain.style.textDecoration = "";
+  }
+
+  let parents = document.getElementById("products");
+
+  let cart = JSON.parse(localStorage.getItem("cartItems"));
+  console.log(cart);
+
+  cart.forEach((product) => {
+    let div = document.createElement("div");
+    console.log(product);
+    div.style.margin = "15px";
+    div.style.display = "flex";
+
+    let a1 = document.createElement("select");
+    a1.style.height ="20px";
+    a1.style.width = "20px";
+    a1.style.margin= "30px";
+    
+  
+  
+    let img = document.createElement("img");
+    img.src = product.imageA;
+    img.style.height = "118px";
+    img.style.padding ="20px";
+    img.setAttribute('class','product_image');
+
+    let prod_price = document.createElement("p");
+    prod_price.textContent = "$"+" "+product.price;
+    prod_price.style.color = "red";
+    prod_price.style.padding ="20px";
+
+    let prod_name = document.createElement("p");
+    prod_name.textContent = "Italianstyle";
+    prod_name.style.padding = "20px";
+    prod_name.style.color = "blue";
+    
+    let addtocart_btn = document.createElement("button");
+   
+    addtocart_btn.innerText =""
+    addtocart_btn.style.margin ="30px";
+    addtocart_btn.style.height = "20px";
+    addtocart_btn.style.width = "20px";
+    
+    addtocart_btn.onclick = function () {
+      addtocart();
+    };
+
+    div.append(img, prod_name, prod_price,a1, addtocart_btn);
+
+    parents.append(div);
+
+
+
+  });
+  function addtocart_btn(){
+    remove(div)
+   }
+
+  c = 0;
+  for (i = 0; i < cart.length; i++) {
+    n = Number(cart[i].price);
+    c += Math.ceil(n) * 70;
+  }
+  document.getElementById("ordervalue").textContent = "Rs." + c;
+
+  var d = 148;
+  var e = 148 + c;
+
+  document.getElementById("total").textContent = "Rs." + e;
+
+
+
+
+  function add() {
+    var a = document.getElementById("coupon").value;
+    var b = "masai30";
+    var succ = document.getElementById("succ");
+    succ.width = "300px";
+
+
+    var m = document.createElement("p");
+    m.textContent = "Coupon Code Applied!10%OFF";
+    m.style.color = "green";
+    var n = document.createElement("p");
+    n.textContent = "Invalid Coupon Code!";
+    n.style.color = "red";
+
+
+    if (a == b) {
+      alert("Coupon Code Applied Successfully");
+      succ.append(m);
+    } else {
+      alert("Invalid Coupon Code");
+      succ.append(n);
+    }
+
+
+  }
+ 
+  
+
+</script>
