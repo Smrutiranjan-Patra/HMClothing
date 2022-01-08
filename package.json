@@ -1,0 +1,23 @@
+{
+  "name": "website-clone",
+  "version": "1.0.0",
+  "description": "H&M is a family of brands, driven by our desire to make great design available to everyone in a sustainable way. Together we offer fashion, design and services, that enable people to be inspired and to express their own personal style, making it easier to live in a more circular way.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smrutiranjan-Patra/Website-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Smrutiranjan-Patra/Website-Clone/issues"
+  },
+  "homepage": "https://github.com/Smrutiranjan-Patra/Website-Clone#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
