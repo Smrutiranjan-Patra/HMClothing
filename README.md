@@ -4,10 +4,7 @@ H&M is a family of brands, driven by our desire to make great design available t
 
 ## Some Glimpse of the Project
 
-<img src="https://imgdb.in/j4RD.jpg" width="100%" height="auto" />
-<img src="https://imgdb.in/j4RF.jpg" width="100%" height="auto" />
-<img src="https://imgdb.in/j4RH.jpg" width="100%" height="auto" />
-<img src="https://imgdb.in/j4RJ.jpg" width="100%" height="auto" />
+<img src="http://smrutiranjan.herokuapp.com/static/media/Screenshot%20(207).056abe6daf64ed789247.png" width="100%" height="auto" />
 
 ## Technology we used
 
